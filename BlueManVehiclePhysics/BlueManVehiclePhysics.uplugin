@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BlueManVehiclePhysics",
+	"Description": "Blue Man Vehicle Physics gives you eveything to create stable vehicles.",
+	"Category": "Blue Man",
+	"CreatedBy": "Blue Man",
+	"CreatedByURL": "",
+	"DocsURL": "https://www.youtube.com/playlist?list=PLhO-m3ogterwvKCcCYFecdb-GbqTP-qbV",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/bfea1a968e994224b5e050224172ee67",
+	"SupportURL": "",
+	"EngineVersion": "4.18.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "BlueManVehiclePhysics",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}

@@ -1,0 +1,1378 @@
+﻿Log file open, 01/27/18 20:17:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BreakingNews
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1559003648) SRandInit(-1559003648).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.174300
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/BlueManVehiclePhysics/Binaries/Win64/UE4Editor-BlueManVehiclePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin BlueManVehiclePhysics
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.27-20.17.12:532][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.27-20.17.12:532][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.27-20.17.12:544][  0]LogInit: Computer: DESKTOP-5KF05JH
+[2018.01.27-20.17.12:544][  0]LogInit: User: UKGC
+[2018.01.27-20.17.12:544][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.27-20.17.12:544][  0]LogInit: High frequency timer resolution =2.929689 MHz
+[2018.01.27-20.17.12:544][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.27-20.17.12:544][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.27-20.17.12:544][  0]LogMemory: Process Physical Memory: 270.26 MB used, 270.26 MB peak
+[2018.01.27-20.17.12:544][  0]LogMemory: Process Virtual Memory: 263.21 MB used, 263.21 MB peak
+[2018.01.27-20.17.12:544][  0]LogMemory: Physical Memory: 8033.14 MB used,  8294.26 MB free, 16327.40 MB total
+[2018.01.27-20.17.12:544][  0]LogMemory: Virtual Memory: 633.89 MB used,  8294.26 MB free, 134217728.00 MB total
+[2018.01.27-20.17.12:728][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.27-20.17.12:728][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.27-20.17.12:731][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.27-20.17.13:143][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.27-20.17.13:381][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.27-20.17.13:437][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.01.27-20.17.13:437][  0]LogD3D11RHI:       6061/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.27-20.17.13:438][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.27-20.17.13:438][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.27-20.17.13:439][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.27-20.17.13:446][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.27-20.17.13:446][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.27-20.17.13:446][  0]LogWindows: EnumDisplayDevices:
+[2018.01.27-20.17.13:446][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.01.27-20.17.13:446][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.01.27-20.17.13:446][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.01.27-20.17.13:446][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.01.27-20.17.13:446][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.01.27-20.17.13:446][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.01.27-20.17.13:446][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.01.27-20.17.13:446][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.01.27-20.17.13:446][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.01.27-20.17.13:475][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.27-20.17.13:485][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.27-20.17.13:533][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Intermediate/Shaders/WorkingDirectory/9236/).
+[2018.01.27-20.17.13:533][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/UKGC/AppData/Local/Temp/UnrealShaderWorkingDir/9C8378E24E8CFCDEDBDAD4BFCD682B71/'.
+[2018.01.27-20.17.13:533][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.27-20.17.14:489][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.27-20.17.14:547][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.27-20.17.14:604][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.27-20.17.14:664][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.27-20.17.14:722][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.27-20.17.14:780][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.27-20.17.14:837][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.27-20.17.14:894][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.27-20.17.14:945][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.27-20.17.15:000][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.27-20.17.15:056][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.27-20.17.15:111][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.27-20.17.15:167][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.27-20.17.15:220][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.27-20.17.15:327][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.27-20.17.15:327][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.27-20.17.15:382][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.27-20.17.15:429][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.27-20.17.15:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.27-20.17.15:556][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.27-20.17.15:608][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.27-20.17.15:664][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.27-20.17.15:717][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.27-20.17.15:772][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.27-20.17.15:772][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.27-20.17.16:278][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.27-20.17.16:354][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/UKGC/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.27-20.17.16:354][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/UKGC/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.27-20.17.16:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.27-20.17.16:354][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.27-20.17.16:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.27-20.17.16:354][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.27-20.17.16:373][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.27-20.17.16:385][  0]LogDerivedDataCache: Using Local data cache path C:/Users/UKGC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.27-20.17.16:397][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.27-20.17.16:398][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.27-20.17.16:398][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.27-20.17.16:398][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.27-20.17.16:752][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.27-20.17.17:100][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.27-20.17.17:145][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.27-20.17.17:146][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.27-20.17.17:146][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.27-20.17.17:146][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.27-20.17.17:146][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.27-20.17.17:173][  0]LogNetVersion: BreakingNews , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2726771752)
+[2018.01.27-20.17.17:343][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.01.27-20.17.17:800][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.043633 seconds
+[2018.01.27-20.17.17:805][  0]LogUObjectArray: 35459 objects as part of root set at end of initial load.
+[2018.01.27-20.17.17:805][  0]LogUObjectAllocator: 7283808 out of 0 bytes used by permanent object pool.
+[2018.01.27-20.17.17:805][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.27-20.17.17:865][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.27-20.17.20:695][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.27-20.17.20:739][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.27-20.17.21:419][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.27-20.17.21:887][  0]SourceControl: Source control is disabled
+[2018.01.27-20.17.21:887][  0]SourceControl: Source control is disabled
+[2018.01.27-20.17.21:943][  0]SourceControl: Source control is disabled
+[2018.01.27-20.17.22:002][  0]SourceControl: Source control is disabled
+[2018.01.27-20.17.22:958][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.27-20.17.23:489][  0]LogEngine: Initializing Engine...
+[2018.01.27-20.17.23:719][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.27-20.17.23:719][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.27-20.17.23:868][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.27-20.17.23:876][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.17.23:890][  0]LogInit: FAudioDevice initialized.
+[2018.01.27-20.17.24:042][  0]LogDerivedDataCache: Saved boot cache 0.15s 78MB C:/Users/UKGC/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.27-20.17.24:060][  0]LogInit: Texture streaming: Enabled
+[2018.01.27-20.17.24:182][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.27-20.17.24:182][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={68A05424-4702-7AF0-1361-E184768355A2}
+[2018.01.27-20.17.24:347][  0]LogInit: Transaction tracking system initialized
+[2018.01.27-20.17.24:714][  0]BlueprintLog: New page: Editor Load
+[2018.01.27-20.17.25:774][  0]LocalizationService: Localization service is disabled
+[2018.01.27-20.17.26:625][  0]LogConsoleResponse: Display: 
+[2018.01.27-20.17.26:808][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.27-20.17.26:808][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.27-20.17.26:808][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.27-20.17.27:081][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/' took 0.02s
+[2018.01.27-20.17.28:182][  0]SourceControl: Source control is disabled
+[2018.01.27-20.17.28:183][  0]Cmd: MAP LOAD FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-20.17.28:183][  0]LightingResults: New page: Lighting Build
+[2018.01.27-20.17.28:235][  0]MapCheck: New page: Map Check
+[2018.01.27-20.17.28:235][  0]LightingResults: New page: Lighting Build
+[2018.01.27-20.17.28:417][  0]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.17.28:422][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-20.17.28:434][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-20.17.28:480][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.733ms to complete.
+[2018.01.27-20.17.28:480][  0]LogFileHelpers: Loading map 'TestLevel' took 0.297
+[2018.01.27-20.17.28:622][  0]LogCollectionManager: Loaded 0 collections in 0.001824 seconds
+[2018.01.27-20.17.28:704][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Collections/' took 0.01s
+[2018.01.27-20.17.28:704][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Developers/UKGC/Collections/' took 0.01s
+[2018.01.27-20.17.28:704][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Collections/' took 0.01s
+[2018.01.27-20.17.28:704][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.27-20.17.28:712][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2362 classes and 513 folders.
+[2018.01.27-20.17.28:783][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.27-20.17.28:820][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.27-20.17.28:868][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.01.27-20.17.28:928][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.27-20.17.28:930][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.27-20.17.28:934][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.27-20.17.29:027][  0]LogRenderer: Reallocating scene render targets to support 1204x604 Format 10 NumSamples 1 (Frame:1).
+[2018.01.27-20.17.29:158][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.27-20.17.29:158][  0]LogLoad: (Engine Initialization) Total time: 18.84 seconds
+[2018.01.27-20.17.29:158][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.27-20.17.29:158][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.27-20.17.29:168][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.27-20.17.29:183][  0]LogAssetRegistry: Asset discovery search completed in 11.8625 seconds
+[2018.01.27-20.17.29:185][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.27-20.17.29:185][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2018.01.27-20.17.29:188][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.27-20.17.29:229][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-20.17.30:185][110]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-20.17.31:869][204]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.27-20.17.31:939][208]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BreakingNews
+[2018.01.27-20.17.31:939][208]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.27-20.17.31:939][208]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.01.27-20.17.31:939][208]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.27-20.17.31:945][209]LogTemp: BranchPath = DESKTOP-5KF05JH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-5KF05JH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.01.27-20.17.31:953][210]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\UKGC\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.27-20.17.38:212][954]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-20.17.38:219][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.17.38:259][954]LogSavePackage: Save=28.06ms
+[2018.01.27-20.17.38:259][954]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevelCA5A7E11482803E9DCA0E08D41BC9242.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.17.38:260][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.17.38:286][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.17.38:302][954]LogSavePackage: Save=13.00ms
+[2018.01.27-20.17.38:302][954]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData34E43E564E8AE7331E2841862D43FCFE.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.17.38:303][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.17.47:408][867]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.01.27-20.17.48:018][867]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.27-20.17.51:576][277]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.27-20.17.51:581][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_Body'
+[2018.01.27-20.17.51:581][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_Body' while loading ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset.
+[2018.01.27-20.17.51:581][277]LoadErrors: Error: /Game/Player/Standard : Can't find file for asset. /Game/Player/Muscle_Body
+[2018.01.27-20.17.51:581][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_FW'
+[2018.01.27-20.17.51:581][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_FW' while loading ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset.
+[2018.01.27-20.17.51:581][277]LoadErrors: Error: /Game/Player/Standard : Can't find file for asset. /Game/Player/Muscle_FW
+[2018.01.27-20.17.51:581][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_Body'
+[2018.01.27-20.17.51:581][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_Body' while loading ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset.
+[2018.01.27-20.17.51:581][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_FW'
+[2018.01.27-20.17.51:582][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_FW' while loading ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset.
+[2018.01.27-20.17.51:582][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_Body'
+[2018.01.27-20.17.51:582][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_Body' while loading NULL.
+[2018.01.27-20.17.51:582][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_FW'
+[2018.01.27-20.17.51:582][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_FW' while loading NULL.
+[2018.01.27-20.17.51:583][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_Body'
+[2018.01.27-20.17.51:583][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_Body' while loading NULL.
+[2018.01.27-20.17.51:583][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_FW'
+[2018.01.27-20.17.51:583][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_FW' while loading NULL.
+[2018.01.27-20.17.51:584][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_Body'
+[2018.01.27-20.17.51:584][277]LoadErrors: Failed to load /Game/Player/Muscle_Body.Muscle_Body Referenced by StaticMesh_GEN_VARIABLE
+[2018.01.27-20.17.51:584][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_Body' while loading NULL.
+[2018.01.27-20.17.51:585][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_FW'
+[2018.01.27-20.17.51:585][277]LoadErrors: Failed to load /Game/Player/Muscle_FW.Muscle_FW Referenced by FR_GEN_VARIABLE
+[2018.01.27-20.17.51:585][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_FW' while loading NULL.
+[2018.01.27-20.17.51:585][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_FW'
+[2018.01.27-20.17.51:585][277]LoadErrors: Failed to load /Game/Player/Muscle_FW.Muscle_FW Referenced by FL_GEN_VARIABLE
+[2018.01.27-20.17.51:585][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_FW' while loading NULL.
+[2018.01.27-20.17.51:585][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_FW'
+[2018.01.27-20.17.51:585][277]LoadErrors: Failed to load /Game/Player/Muscle_FW.Muscle_FW Referenced by RR_GEN_VARIABLE
+[2018.01.27-20.17.51:586][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_FW' while loading NULL.
+[2018.01.27-20.17.51:586][277]LogLinker: Warning: Can't find file '/Game/Player/Muscle_FW'
+[2018.01.27-20.17.51:586][277]LoadErrors: Failed to load /Game/Player/Muscle_FW.Muscle_FW Referenced by RL_GEN_VARIABLE
+[2018.01.27-20.17.51:586][277]LogLinker: Warning: Can't find file for asset '/Game/Player/Muscle_FW' while loading NULL.
+[2018.01.27-20.17.52:707][408]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.27-20.17.54:851][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GM_Chase" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/GM_Chase.uasset" SILENT=true
+[2018.01.27-20.17.54:870][659]LogSavePackage: Save=10.35ms
+[2018.01.27-20.17.54:870][659]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/GM_Chase773190B045231C693D0A47A6B333F644.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/GM_Chase.uasset'
+[2018.01.27-20.17.54:872][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/GM_Chase.uasset
+[2018.01.27-20.17.55:285][708]BlueprintLog: New page: Compile GM_Chase
+[2018.01.27-20.17.56:719][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.17.56:763][847]LogSavePackage: Save=27.33ms
+[2018.01.27-20.17.56:763][847]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel81923BCD4CDA14ECD81DE7873EAA8693.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.17.56:764][847]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.17.56:789][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.17.56:803][847]LogSavePackage: Save=11.21ms
+[2018.01.27-20.17.56:803][847]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData2E956A8E44E09F8E2D9F09943B01E5DC.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.17.56:805][847]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.17.58:414][ 39]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.17.58:450][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.17.58:450][ 39]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:17:58)
+[2018.01.27-20.17.58:450][ 39]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.17.58:455][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004839s)
+[2018.01.27-20.17.58:456][ 39]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.17.58:456][ 39]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.01.27-20.17.58:456][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005822s)
+[2018.01.27-20.17.58:474][ 39]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.17.58:485][ 39]LogInit: FAudioDevice initialized.
+[2018.01.27-20.17.58:529][ 39]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.17.58:532][ 39]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.17.58
+[2018.01.27-20.17.58:533][ 39]LogWorld: Bringing up level for play took: 0.000638
+[2018.01.27-20.17.58:579][ 39]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.01.27-20.17.58:580][ 39]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.12
+[2018.01.27-20.18.06:186][908]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.27-20.18.06:239][909]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.27-20.18.08:992][201]LogSelectionDetails: Warning: NavigateToFunctionSource:  Found symbols for [AVehiclePhysicsActor::InitializeAllSystems] - File [d:\build\++portal+dev-marketplace+full\sync\localbuilds\plugintemp\hostproject\plugins\bluemanvehiclephysics\source\bluemanvehiclephysics\private\vehiclephysicsactor.cpp], Line [193], Column [0]
+[2018.01.27-20.18.09:063][201]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.01.27-20.18.09:067][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:067][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:067][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:067][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:067][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:068][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:069][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:070][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:076][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:076][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:077][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:078][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:078][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:078][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:078][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:080][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:084][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:087][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:091][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:091][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:092][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:092][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:092][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:093][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:093][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:094][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:095][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:099][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:099][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:105][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:105][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:116][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:116][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:122][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:123][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:125][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:132][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:133][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:134][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:142][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:144][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:145][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:145][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.09:147][201]LogVSAccessor: Warning: Couldn't access module table
+[2018.01.27-20.18.16:973][109]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.18.17:001][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.18.17:001][109]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:18:17)
+[2018.01.27-20.18.17:001][109]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.18.17:006][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005024s)
+[2018.01.27-20.18.17:006][109]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.18.17:007][109]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2018.01.27-20.18.17:007][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005792s)
+[2018.01.27-20.18.17:024][109]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.18.17:034][109]LogInit: FAudioDevice initialized.
+[2018.01.27-20.18.17:064][109]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.18.17:065][109]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.18.17
+[2018.01.27-20.18.17:065][109]LogWorld: Bringing up level for play took: 0.000542
+[2018.01.27-20.18.17:067][109]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.607
+[2018.01.27-20.18.22:799][786]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.18.22:816][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.18.22:816][786]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:18:22)
+[2018.01.27-20.18.22:816][786]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.18.22:821][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004843s)
+[2018.01.27-20.18.22:822][786]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.18.22:822][786]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2018.01.27-20.18.22:822][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005722s)
+[2018.01.27-20.18.22:842][786]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.18.22:851][786]LogInit: FAudioDevice initialized.
+[2018.01.27-20.18.22:888][786]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.18.22:890][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.18.22
+[2018.01.27-20.18.22:890][786]LogWorld: Bringing up level for play took: 0.000656
+[2018.01.27-20.18.22:893][786]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.432
+[2018.01.27-20.18.22:916][786]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.01.27-20.18.34:773][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Standard" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset" SILENT=true
+[2018.01.27-20.18.34:802][160]LogSavePackage: Save=26.47ms
+[2018.01.27-20.18.34:803][160]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/StandardD20D86D048DAFBAE89BD8F9C5A13EA3E.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset'
+[2018.01.27-20.18.34:804][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset
+[2018.01.27-20.18.36:172][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.18.36:218][315]LogSavePackage: Save=28.11ms
+[2018.01.27-20.18.36:218][315]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevelCE9B605D4D523E6F6949DE86F485198D.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.18.36:219][315]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.18.36:245][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.18.36:260][315]LogSavePackage: Save=11.53ms
+[2018.01.27-20.18.36:260][315]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData54825D8A4FEFF986CE657588397414C2.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.18.36:261][315]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.18.49:117][954]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\UKGC\Desktop\Muscle_FW.FBX)
+[2018.01.27-20.18.49:123][954]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.27-20.18.49:123][954]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.27-20.18.49:123][954]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.27-20.18.49:123][954]LogFbx: ItemName: Model, ItemCount : 1
+[2018.01.27-20.18.49:123][954]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.01.27-20.18.49:123][954]LogFbx: ItemName: Material, ItemCount : 2
+[2018.01.27-20.18.49:129][954]LogFbx: Loading FBX Scene from C:\Users\UKGC\Desktop\Muscle_FW.FBX
+[2018.01.27-20.18.49:135][954]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.27-20.18.50:163][954]LogFbx: Loading FBX Scene from C:\Users\UKGC\Desktop\Muscle_FW.FBX
+[2018.01.27-20.18.50:170][954]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.27-20.18.50:170][954]LogLinker: Can't find file '/Game/Player/Fbx_Default_Material'
+[2018.01.27-20.18.50:170][954]LogLinker: Can't find file '/Game/Player/Fbx_Default_Material'
+[2018.01.27-20.18.50:176][954]LogMaterial: Missing cached shader map for material Fbx_Default_Material, compiling. 
+[2018.01.27-20.18.50:213][954]LogLinker: Can't find file '/Game/Player/rim'
+[2018.01.27-20.18.50:214][954]LogLinker: Can't find file '/Game/Player/rim'
+[2018.01.27-20.18.50:219][954]LogMaterial: Missing cached shader map for material rim, compiling. 
+[2018.01.27-20.18.50:242][954]LogStaticMesh: Building static mesh Muscle_FW...
+[2018.01.27-20.18.50:256][954]LogStaticMesh: Built static mesh [0.01s] /Game/Player/Muscle_FW.Muscle_FW
+[2018.01.27-20.18.50:326][954]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.01.27-20.18.50:340][954]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\UKGC\Desktop\Muscle_Body.FBX)
+[2018.01.27-20.18.50:351][954]LogFbx: Loading FBX Scene from C:\Users\UKGC\Desktop\Muscle_Body.FBX
+[2018.01.27-20.18.50:358][954]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.27-20.18.50:358][954]LogFbx: Warning: Triangulating mesh UCX_Muscle_Body for collision model
+[2018.01.27-20.18.50:365][954]LogStaticMesh: Building static mesh Muscle_Body...
+[2018.01.27-20.18.50:371][954]LogStaticMesh: Built static mesh [0.01s] /Game/Player/Muscle_Body.Muscle_Body
+[2018.01.27-20.18.50:377][954]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.01.27-20.19.06:336][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Standard" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset" SILENT=true
+[2018.01.27-20.19.06:376][797]LogSavePackage: Save=36.93ms
+[2018.01.27-20.19.06:376][797]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Standard9D9653F54DA7EDA1BFAFD286AB43404E.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset'
+[2018.01.27-20.19.06:380][797]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset
+[2018.01.27-20.19.18:464][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Standard" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset" SILENT=true
+[2018.01.27-20.19.18:494][239]LogSavePackage: Save=26.88ms
+[2018.01.27-20.19.18:494][239]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Standard4B9582814FCA0C128D97828B8061B626.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset'
+[2018.01.27-20.19.18:496][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset
+[2018.01.27-20.19.18:805][276]BlueprintLog: New page: Compile Standard
+[2018.01.27-20.19.20:007][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Fbx_Default_Material" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Fbx_Default_Material.uasset" SILENT=true
+[2018.01.27-20.19.20:024][380]LogSavePackage: Save=14.37ms
+[2018.01.27-20.19.20:024][380]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Fbx_Default_MaterialD625BDBE4321C749EE8D938A027F4A4D.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Fbx_Default_Material.uasset'
+[2018.01.27-20.19.20:027][380]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Fbx_Default_Material.uasset
+[2018.01.27-20.19.20:041][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Muscle_FW" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Muscle_FW.uasset" SILENT=true
+[2018.01.27-20.19.20:058][380]LogSavePackage: Save=15.07ms
+[2018.01.27-20.19.20:058][380]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Muscle_FW0370252643528D5D99B577826514C151.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Muscle_FW.uasset'
+[2018.01.27-20.19.20:061][380]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Muscle_FW.uasset
+[2018.01.27-20.19.20:074][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/rim" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/rim.uasset" SILENT=true
+[2018.01.27-20.19.20:093][380]LogSavePackage: Save=16.64ms
+[2018.01.27-20.19.20:093][380]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/rimAD93C7C54BD2E8D786E9C5804F636452.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/rim.uasset'
+[2018.01.27-20.19.20:096][380]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/rim.uasset
+[2018.01.27-20.19.20:109][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Muscle_Body" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Muscle_Body.uasset" SILENT=true
+[2018.01.27-20.19.20:124][380]LogSavePackage: Save=13.84ms
+[2018.01.27-20.19.20:124][380]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Muscle_Body82734DA3401ED8D579376382DB9C0D06.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Muscle_Body.uasset'
+[2018.01.27-20.19.20:127][380]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Muscle_Body.uasset
+[2018.01.27-20.19.24:642][912]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.19.24:659][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.19.24:659][912]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:19:24)
+[2018.01.27-20.19.24:659][912]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.19.24:664][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004748s)
+[2018.01.27-20.19.24:665][912]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.19.24:665][912]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2018.01.27-20.19.24:665][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005543s)
+[2018.01.27-20.19.24:683][912]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.19.24:693][912]LogInit: FAudioDevice initialized.
+[2018.01.27-20.19.24:724][912]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.19.24:726][912]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.19.24
+[2018.01.27-20.19.24:726][912]LogWorld: Bringing up level for play took: 0.000730
+[2018.01.27-20.19.24:728][912]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.267
+[2018.01.27-20.19.40:602][790]BlueprintLog: New page: Compile Standard
+[2018.01.27-20.19.42:120][935]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.19.42:138][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.19.42:138][935]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:19:42)
+[2018.01.27-20.19.42:138][935]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.19.42:142][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004479s)
+[2018.01.27-20.19.42:143][935]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.19.42:143][935]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2018.01.27-20.19.42:143][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005290s)
+[2018.01.27-20.19.42:162][935]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.19.42:172][935]LogInit: FAudioDevice initialized.
+[2018.01.27-20.19.42:211][935]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.19.42:214][935]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.19.42
+[2018.01.27-20.19.42:214][935]LogWorld: Bringing up level for play took: 0.000604
+[2018.01.27-20.19.42:218][935]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.243
+[2018.01.27-20.19.46:823][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.27-20.19.58:800][879]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.01.27-20.19.59:686][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.19.59:732][975]LogSavePackage: Save=27.76ms
+[2018.01.27-20.19.59:732][975]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevelC38B66BE44FCF0510A8EF38563B00656.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.19.59:735][975]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.19.59:761][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.19.59:775][975]LogSavePackage: Save=11.30ms
+[2018.01.27-20.19.59:775][975]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData5ABEC19A4993BBD5966BBC9E4DCC93B2.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.19.59:776][975]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.20.00:486][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.27-20.20.05:995][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.20.06:040][707]LogSavePackage: Save=27.59ms
+[2018.01.27-20.20.06:040][707]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel91521111497421C8911B26A8471A445E.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.20.06:043][707]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.20.06:069][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.20.06:083][707]LogSavePackage: Save=11.67ms
+[2018.01.27-20.20.06:083][707]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData6426C91B4EFF99E2FC570EADD7F79313.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.20.06:084][707]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.20.06:610][769]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.20.06:627][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.20.06:627][769]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:20:06)
+[2018.01.27-20.20.06:627][769]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.20.06:632][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004520s)
+[2018.01.27-20.20.06:632][769]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.20.06:632][769]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2018.01.27-20.20.06:632][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005331s)
+[2018.01.27-20.20.06:652][769]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.20.06:661][769]LogInit: FAudioDevice initialized.
+[2018.01.27-20.20.06:694][769]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.20.06:696][769]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.20.06
+[2018.01.27-20.20.06:696][769]LogWorld: Bringing up level for play took: 0.000677
+[2018.01.27-20.20.06:697][769]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.237
+[2018.01.27-20.20.12:085][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.20.12:130][401]LogSavePackage: Save=27.16ms
+[2018.01.27-20.20.12:130][401]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel18FC4F7A4401CFC4B24F71B273E5C7AF.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.20.12:132][401]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.20.12:158][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.20.12:172][401]LogSavePackage: Save=10.72ms
+[2018.01.27-20.20.12:172][401]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData38DDF5004DEB350D1283E5BF320A8237.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.20.12:173][401]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.20.13:054][506]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.20.13:070][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.20.13:070][506]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:20:13)
+[2018.01.27-20.20.13:070][506]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.20.13:074][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004218s)
+[2018.01.27-20.20.13:075][506]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.20.13:075][506]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2018.01.27-20.20.13:075][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005024s)
+[2018.01.27-20.20.13:096][506]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.20.13:104][506]LogInit: FAudioDevice initialized.
+[2018.01.27-20.20.13:138][506]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.20.13:140][506]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.20.13
+[2018.01.27-20.20.13:140][506]LogWorld: Bringing up level for play took: 0.000655
+[2018.01.27-20.20.13:141][506]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.681
+[2018.01.27-20.20.28:342][316]Cmd: stat unit
+[2018.01.27-20.20.29:577][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.20.29:623][454]LogSavePackage: Save=28.77ms
+[2018.01.27-20.20.29:623][454]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel4D71EAB24CD7D1E433D17CBA806DC6C2.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.20.29:624][454]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.20.29:651][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.20.29:665][454]LogSavePackage: Save=11.49ms
+[2018.01.27-20.20.29:665][454]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltDataEC9F56E54C8A7C68E5567A861C7D20C3.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.20.29:667][454]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.23.30:496][279]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.23.30:522][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.23.30:522][279]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:23:30)
+[2018.01.27-20.23.30:522][279]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.23.30:527][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004999s)
+[2018.01.27-20.23.30:528][279]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.23.30:528][279]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.01.27-20.23.30:528][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.006136s)
+[2018.01.27-20.23.30:548][279]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.23.30:558][279]LogInit: FAudioDevice initialized.
+[2018.01.27-20.23.30:590][279]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.23.30:593][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.23.30
+[2018.01.27-20.23.30:593][279]LogWorld: Bringing up level for play took: 0.000637
+[2018.01.27-20.23.30:594][279]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.134
+[2018.01.27-20.23.43:878][757]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.27-20.23.43:976][765]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BreakingNews
+[2018.01.27-20.23.43:976][765]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.27-20.23.43:976][765]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.01.27-20.23.43:976][765]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.27-20.23.43:984][766]LogTemp: BranchPath = DESKTOP-5KF05JH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-5KF05JH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.01.27-20.23.43:993][767]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\UKGC\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.27-20.23.56:898][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.23.56:948][299]LogSavePackage: Save=27.39ms
+[2018.01.27-20.23.56:948][299]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel588FCFDC4050563CAE9E9DAD1EE85C0C.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.23.56:950][299]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.23.56:976][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.23.56:995][299]LogSavePackage: Save=11.71ms
+[2018.01.27-20.23.56:995][299]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData674632C74F81151C4435CBBEF5E5CB86.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.23.56:996][299]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.25.43:249][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.25.43:298][799]LogSavePackage: Save=28.25ms
+[2018.01.27-20.25.43:298][799]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevelADD1EFAE435DC45917A158A3C2F3EF0C.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.25.43:299][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.25.43:326][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.25.43:340][799]LogSavePackage: Save=11.61ms
+[2018.01.27-20.25.43:340][799]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData9884E50A4D71C0B7C0F295BDDDD40631.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.25.43:342][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.25.44:359][899]LogRenderer: Reallocating scene render targets to support 1292x760 Format 10 NumSamples 1 (Frame:8127).
+[2018.01.27-20.25.44:444][905]LogRenderer: Reallocating scene render targets to support 1292x764 Format 10 NumSamples 1 (Frame:8134).
+[2018.01.27-20.25.45:294][994]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.25.45:312][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.25.45:312][994]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:25:45)
+[2018.01.27-20.25.45:312][994]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.25.45:318][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005456s)
+[2018.01.27-20.25.45:318][994]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.25.45:319][994]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2018.01.27-20.25.45:319][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.006519s)
+[2018.01.27-20.25.45:341][994]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.25.45:351][994]LogInit: FAudioDevice initialized.
+[2018.01.27-20.25.45:383][994]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.25.45:385][994]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.25.45
+[2018.01.27-20.25.45:385][994]LogWorld: Bringing up level for play took: 0.000600
+[2018.01.27-20.25.45:387][994]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.926
+[2018.01.27-20.35.57:807][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.020
+[2018.01.27-20.35.57:810][  0]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Standard] ([1] browsable assets)...
+[2018.01.27-20.35.57:834][  0]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/Standard.Standard]
+[2018.01.27-20.35.57:835][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Standard]
+[2018.01.27-20.35.57:956][  0]LogSavePackage: Save=112.23ms
+[2018.01.27-20.35.57:956][  0]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Standard_Auto1EEAD69D4469D72D5BA0CFD8E3C209482.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Autosaves/Game/Player/Standard_Auto1.uasset'
+[2018.01.27-20.35.57:958][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Autosaves/Game/Player/Standard_Auto1.uasset
+[2018.01.27-20.35.57:958][  0]LogFileHelpers: Auto-saving content packages took 0.150
+[2018.01.27-20.41.32:370][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.41.32:425][188]LogSavePackage: Save=28.18ms
+[2018.01.27-20.41.32:425][188]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevelF459D58A49E9E2FF95D960A10B4942E4.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.41.32:426][188]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.41.32:453][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.41.32:472][188]LogSavePackage: Save=11.92ms
+[2018.01.27-20.41.32:472][188]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData91D0E0E74CB6893B53E7BBA3A262B622.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.41.32:474][188]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.41.33:086][260]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.41.33:103][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.41.33:103][260]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:41:33)
+[2018.01.27-20.41.33:104][260]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.41.33:109][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004921s)
+[2018.01.27-20.41.33:109][260]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.41.33:109][260]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2018.01.27-20.41.33:110][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005979s)
+[2018.01.27-20.41.33:129][260]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.41.33:141][260]LogInit: FAudioDevice initialized.
+[2018.01.27-20.41.33:174][260]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.41.33:176][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.41.33
+[2018.01.27-20.41.33:176][260]LogWorld: Bringing up level for play took: 0.000633
+[2018.01.27-20.41.33:178][260]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.717
+[2018.01.27-20.41.45:120][680]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.41.45:137][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.41.45:137][680]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:41:45)
+[2018.01.27-20.41.45:137][680]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.41.45:141][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004147s)
+[2018.01.27-20.41.45:142][680]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.41.45:142][680]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2018.01.27-20.41.45:142][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.004894s)
+[2018.01.27-20.41.45:162][680]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.41.45:170][680]LogInit: FAudioDevice initialized.
+[2018.01.27-20.41.45:203][680]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.41.45:204][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.41.45
+[2018.01.27-20.41.45:205][680]LogWorld: Bringing up level for play took: 0.000543
+[2018.01.27-20.41.45:206][680]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.746
+[2018.01.27-20.41.55:741][931]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.41.55:760][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.41.55:760][931]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:41:55)
+[2018.01.27-20.41.55:760][931]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.41.55:765][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004150s)
+[2018.01.27-20.41.55:765][931]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.41.55:765][931]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2018.01.27-20.41.55:766][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005056s)
+[2018.01.27-20.41.55:785][931]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.41.55:793][931]LogInit: FAudioDevice initialized.
+[2018.01.27-20.41.55:825][931]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.41.55:827][931]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.41.55
+[2018.01.27-20.41.55:827][931]LogWorld: Bringing up level for play took: 0.000535
+[2018.01.27-20.41.55:828][931]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.632
+[2018.01.27-20.46.27:765][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.46.27:815][659]LogSavePackage: Save=28.84ms
+[2018.01.27-20.46.27:815][659]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel6BBDBA584FB53DA52930C6B3AA8687EF.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.46.27:816][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.46.27:847][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.46.27:861][659]LogSavePackage: Save=11.68ms
+[2018.01.27-20.46.27:861][659]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData46989EBC4DBA9137CDA5C5A998F448E9.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.46.27:862][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.46.54:861][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_NPC_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset" SILENT=true
+[2018.01.27-20.46.54:900][735]LogSavePackage: Save=36.82ms
+[2018.01.27-20.46.54:900][735]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_NPC_Parent3EB1DD0547F7CC5152E5D8951727CA29.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset'
+[2018.01.27-20.46.54:904][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset
+[2018.01.27-20.49.47:037][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_NPC_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset" SILENT=true
+[2018.01.27-20.49.47:073][871]LogSavePackage: Save=27.90ms
+[2018.01.27-20.49.47:073][871]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_NPC_ParentC7FF0302478AF27F16C25CAB9E615C73.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset'
+[2018.01.27-20.49.47:075][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset
+[2018.01.27-20.49.52:342][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.49.52:397][452]LogSavePackage: Save=27.86ms
+[2018.01.27-20.49.52:397][452]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevelDE08283D4F396F6B1645BDB1DDACED5C.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.49.52:399][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.49.52:435][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.49.52:454][452]LogSavePackage: Save=11.76ms
+[2018.01.27-20.49.52:454][452]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltDataDEC732F94CF1F3F7480580B747F14D84.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.49.52:455][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.51.15:035][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.51.15:084][112]LogSavePackage: Save=27.92ms
+[2018.01.27-20.51.15:084][112]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevelD809E9AD4EED0D47268F50823CBE96CD.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.51.15:086][112]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.51.15:112][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.51.15:127][112]LogSavePackage: Save=11.71ms
+[2018.01.27-20.51.15:127][112]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData093ACA47431B81B3D47A3AA59E5900E0.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.51.15:128][112]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.51.15:813][193]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.51.15:831][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.51.15:831][193]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:51:15)
+[2018.01.27-20.51.15:831][193]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.51.15:836][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004569s)
+[2018.01.27-20.51.15:836][193]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.51.15:837][193]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2018.01.27-20.51.15:837][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005497s)
+[2018.01.27-20.51.15:856][193]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.51.15:865][193]LogInit: FAudioDevice initialized.
+[2018.01.27-20.51.15:897][193]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.51.15:899][193]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.51.15
+[2018.01.27-20.51.15:899][193]LogWorld: Bringing up level for play took: 0.000694
+[2018.01.27-20.51.15:901][193]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.56
+[2018.01.27-20.52.45:824][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.52.45:873][555]LogSavePackage: Save=27.78ms
+[2018.01.27-20.52.45:873][555]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel0184B438433BD7D26C7E7E9683F258AD.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.52.45:875][555]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.52.45:902][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.52.45:916][555]LogSavePackage: Save=11.02ms
+[2018.01.27-20.52.45:916][555]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData7C7C44C04E4E7E711AE217807E65112B.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.52.45:917][555]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.52.46:409][613]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.52.46:428][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.52.46:428][613]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:52:46)
+[2018.01.27-20.52.46:428][613]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.52.46:433][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004770s)
+[2018.01.27-20.52.46:433][613]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.52.46:434][613]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2018.01.27-20.52.46:434][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005665s)
+[2018.01.27-20.52.46:453][613]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.52.46:462][613]LogInit: FAudioDevice initialized.
+[2018.01.27-20.52.46:492][613]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.52.46:493][613]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.52.46
+[2018.01.27-20.52.46:494][613]LogWorld: Bringing up level for play took: 0.000576
+[2018.01.27-20.52.46:495][613]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.035
+[2018.01.27-20.52.56:741][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.52.56:787][808]LogSavePackage: Save=27.37ms
+[2018.01.27-20.52.56:788][808]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel007C425D4D6BBB4C06F9228B3218821E.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.52.56:789][808]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.52.56:817][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.52.56:832][808]LogSavePackage: Save=11.77ms
+[2018.01.27-20.52.56:832][808]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltDataE88B101846B4EB7EE97D9A9BC3D0C642.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.52.56:833][808]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.52.57:499][887]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.52.57:518][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.52.57:518][887]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:52:57)
+[2018.01.27-20.52.57:518][887]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.52.57:523][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004654s)
+[2018.01.27-20.52.57:523][887]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.52.57:523][887]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2018.01.27-20.52.57:524][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005622s)
+[2018.01.27-20.52.57:546][887]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.52.57:555][887]LogInit: FAudioDevice initialized.
+[2018.01.27-20.52.57:587][887]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.52.57:589][887]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.52.57
+[2018.01.27-20.52.57:589][887]LogWorld: Bringing up level for play took: 0.000639
+[2018.01.27-20.52.57:591][887]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.87
+[2018.01.27-20.53.09:088][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.53.09:134][252]LogSavePackage: Save=27.16ms
+[2018.01.27-20.53.09:134][252]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel596A28EE40493DBD2A8B5A9A334EF3D8.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.53.09:136][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.53.09:162][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.53.09:176][252]LogSavePackage: Save=11.62ms
+[2018.01.27-20.53.09:176][252]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltDataBEEFCABE4AB805165F698B972CFBB974.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.53.09:177][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.53.10:663][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Standard" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset" SILENT=true
+[2018.01.27-20.53.10:701][426]LogSavePackage: Save=29.41ms
+[2018.01.27-20.53.10:701][426]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/StandardFBB251354FF2D4A1FBBC249D7A22CB94.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset'
+[2018.01.27-20.53.10:707][426]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/Standard.uasset
+[2018.01.27-20.53.21:970][736]LogMetaData: Removing '/Game/Player/BP_Player_Parent.BP_Player_Parent_C' ref from Metadata '/Game/Player/Standard.PackageMetaData'
+[2018.01.27-20.53.21:970][736]LogMetaData: Removing '/Game/Player/BP_Player_Parent.BP_Player_Parent:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player/Standard.PackageMetaData'
+[2018.01.27-20.53.21:970][736]LogMetaData: Removing '/Game/Player/BP_Player_Parent.BP_Player_Parent:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Player/Standard.PackageMetaData'
+[2018.01.27-20.53.21:970][736]LogMetaData: Removing '/Game/Player/BP_Player_Parent.SKEL_BP_Player_Parent_C' ref from Metadata '/Game/Player/Standard.PackageMetaData'
+[2018.01.27-20.53.21:999][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset" SILENT=true
+[2018.01.27-20.53.22:039][736]LogSavePackage: Save=38.40ms
+[2018.01.27-20.53.22:039][736]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_Player_Parent2F5DD76748FE3F9B96BA5581A1DF6DC9.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset'
+[2018.01.27-20.53.22:042][736]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset
+[2018.01.27-20.53.22:171][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GM_Chase" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/GM_Chase.uasset" SILENT=true
+[2018.01.27-20.53.22:190][736]LogSavePackage: Save=10.21ms
+[2018.01.27-20.53.22:190][736]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/GM_Chase767936604B4DC837F7F79A86981A4E53.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/GM_Chase.uasset'
+[2018.01.27-20.53.22:193][736]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/GM_Chase.uasset
+[2018.01.27-20.53.22:869][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.53.22:916][813]LogSavePackage: Save=27.17ms
+[2018.01.27-20.53.22:916][813]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevelCE87E06747D63A487FEFD59BA514E6A1.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.53.22:918][813]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.53.22:952][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.53.22:967][813]LogSavePackage: Save=11.86ms
+[2018.01.27-20.53.22:968][813]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltDataFE44C1AF4299B140FE821F846B317D6F.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.53.22:969][813]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.53.23:634][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-20.53.23:680][891]LogSavePackage: Save=27.03ms
+[2018.01.27-20.53.23:680][891]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel0A6A9E994804196CA49065B4A8A447C0.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.27-20.53.23:681][891]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel.umap
+[2018.01.27-20.53.23:707][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
+[2018.01.27-20.53.23:721][891]LogSavePackage: Save=10.75ms
+[2018.01.27-20.53.23:721][891]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/TestLevel_BuiltData109F361347011FBFB0EDFF8EC09509F1.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
+[2018.01.27-20.53.23:722][891]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
+[2018.01.27-20.53.24:874][ 28]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.53.24:893][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.53.24:893][ 28]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:53:24)
+[2018.01.27-20.53.24:893][ 28]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.53.24:898][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004651s)
+[2018.01.27-20.53.24:898][ 28]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.53.24:898][ 28]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2018.01.27-20.53.24:899][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005774s)
+[2018.01.27-20.53.24:918][ 28]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.53.24:927][ 28]LogInit: FAudioDevice initialized.
+[2018.01.27-20.53.24:962][ 28]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.53.24:963][ 28]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.53.24
+[2018.01.27-20.53.24:964][ 28]LogWorld: Bringing up level for play took: 0.000571
+[2018.01.27-20.53.24:965][ 28]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.505
+[2018.01.27-20.53.37:192][379]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.27-20.53.37:246][382]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BreakingNews
+[2018.01.27-20.53.37:246][382]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.27-20.53.37:246][382]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.01.27-20.53.37:246][382]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.27-20.53.37:253][383]LogTemp: BranchPath = DESKTOP-5KF05JH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-5KF05JH/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.01.27-20.53.37:260][384]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\UKGC\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.27-20.53.54:094][377]BlueprintLog: New page: Compile BP_Player_Parent
+[2018.01.27-20.53.54:729][407]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.53.54:747][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.53.54:747][407]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:53:54)
+[2018.01.27-20.53.54:747][407]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.53.54:752][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004289s)
+[2018.01.27-20.53.54:752][407]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.53.54:752][407]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2018.01.27-20.53.54:753][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005334s)
+[2018.01.27-20.53.54:772][407]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.53.54:781][407]LogInit: FAudioDevice initialized.
+[2018.01.27-20.53.54:823][407]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.53.54:825][407]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.53.54
+[2018.01.27-20.53.54:825][407]LogWorld: Bringing up level for play took: 0.000723
+[2018.01.27-20.53.54:828][407]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.368
+[2018.01.27-20.54.09:335][130]BlueprintLog: New page: Compile BP_Player_Parent
+[2018.01.27-20.54.09:984][162]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.54.10:003][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.54.10:003][162]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:54:10)
+[2018.01.27-20.54.10:003][162]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.54.10:007][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004296s)
+[2018.01.27-20.54.10:008][162]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.54.10:008][162]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2018.01.27-20.54.10:008][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.005163s)
+[2018.01.27-20.54.10:030][162]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.54.10:038][162]LogInit: FAudioDevice initialized.
+[2018.01.27-20.54.10:077][162]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.54.10:079][162]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.54.10
+[2018.01.27-20.54.10:079][162]LogWorld: Bringing up level for play took: 0.000630
+[2018.01.27-20.54.10:083][162]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.377
+[2018.01.27-20.54.23:562][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset" SILENT=true
+[2018.01.27-20.54.23:605][761]LogSavePackage: Save=34.31ms
+[2018.01.27-20.54.23:605][761]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_Player_ParentAB60D22247CF2C770C941495730A140B.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset'
+[2018.01.27-20.54.23:608][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset
+[2018.01.27-20.54.47:321][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset" SILENT=true
+[2018.01.27-20.54.47:354][588]LogSavePackage: Save=28.74ms
+[2018.01.27-20.54.47:354][588]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_Player_Parent9DF1D9484DD067153EDC1DAAA3260805.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset'
+[2018.01.27-20.54.47:355][588]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset
+[2018.01.27-20.54.58:703][937]BlueprintLog: New page: Compile BP_Player_Parent
+[2018.01.27-20.55.04:518][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset" SILENT=true
+[2018.01.27-20.55.04:556][586]LogSavePackage: Save=34.91ms
+[2018.01.27-20.55.04:556][586]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_Player_ParentAE5839E24A66D865AA94B797CB2C6C3E.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset'
+[2018.01.27-20.55.04:559][586]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset
+[2018.01.27-20.55.06:943][715]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.55.06:964][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.55.06:964][715]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:55:06)
+[2018.01.27-20.55.06:964][715]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.55.06:970][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005352s)
+[2018.01.27-20.55.06:971][715]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.55.06:971][715]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2018.01.27-20.55.06:971][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.006544s)
+[2018.01.27-20.55.06:992][715]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.55.07:001][715]LogInit: FAudioDevice initialized.
+[2018.01.27-20.55.07:040][715]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.55.07:042][715]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.55.07
+[2018.01.27-20.55.07:042][715]LogWorld: Bringing up level for play took: 0.000712
+[2018.01.27-20.55.07:046][715]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.585
+[2018.01.27-20.56.39:391][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset" SILENT=true
+[2018.01.27-20.56.39:425][ 69]LogSavePackage: Save=29.60ms
+[2018.01.27-20.56.39:425][ 69]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_Player_Parent6EDB1B504FC51CE42BA3FDA068562C69.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset'
+[2018.01.27-20.56.39:426][ 69]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset
+[2018.01.27-20.56.43:313][339]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.27-20.56.43:335][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-20.56.43:335][339]PIE: New page: PIE session: TestLevel (27 Jan 2018 20:56:43)
+[2018.01.27-20.56.43:335][339]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.27-20.56.43:340][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005252s)
+[2018.01.27-20.56.43:341][339]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.27-20.56.43:341][339]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2018.01.27-20.56.43:341][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.006265s)
+[2018.01.27-20.56.43:365][339]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.27-20.56.43:376][339]LogInit: FAudioDevice initialized.
+[2018.01.27-20.56.43:413][339]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.27-20.56.43:416][339]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.27-20.56.43
+[2018.01.27-20.56.43:416][339]LogWorld: Bringing up level for play took: 0.000740
+[2018.01.27-20.56.43:419][339]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.959
+[2018.01.27-20.59.16:891][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset" SILENT=true
+[2018.01.27-20.59.16:923][227]LogSavePackage: Save=27.93ms
+[2018.01.27-20.59.16:923][227]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_Player_Parent682574794BE0D15E71157BBA6B3D9623.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset'
+[2018.01.27-20.59.16:926][227]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_Player_Parent.uasset
+[2018.01.27-20.59.19:671][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_NPC_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset" SILENT=true
+[2018.01.27-20.59.19:706][550]LogSavePackage: Save=26.26ms
+[2018.01.27-20.59.19:706][550]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_NPC_Parent1A40383941AED8E007DFE6BAF6A2E79C.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset'
+[2018.01.27-20.59.19:707][550]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset
+[2018.01.27-20.59.35:079][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_NPC_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset" SILENT=true
+[2018.01.27-20.59.35:112][833]LogSavePackage: Save=26.58ms
+[2018.01.27-20.59.35:112][833]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_NPC_Parent1413AA174FD553CEFBA57684E01213FF.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset'
+[2018.01.27-20.59.35:113][833]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset
+[2018.01.27-20.59.37:023][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_NPC_Parent" FILE="../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset" SILENT=true
+[2018.01.27-20.59.37:054][ 60]LogSavePackage: Save=26.93ms
+[2018.01.27-20.59.37:054][ 60]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/BP_NPC_Parent293A4855479174441BBD3C9470131262.tmp' to '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset'
+[2018.01.27-20.59.37:056][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Player/BP_NPC_Parent.uasset
+[2018.01.27-20.59.38:183][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.27-20.59.38:480][173]Cmd: QUIT_EDITOR
+[2018.01.27-20.59.39:352][173]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.27-20.59.39:376][173]LogExit: Preparing to exit.
+[2018.01.27-20.59.39:715][173]LogDirectoryWatcher: A directory notification for 'C:/Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/' was aborted.
+[2018.01.27-20.59.39:803][173]LogExit: Editor shut down
+[2018.01.27-20.59.39:831][173]LogExit: Transaction tracking system shut down
+[2018.01.27-20.59.40:026][173]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.27-20.59.40:026][173]LogDirectoryWatcher: A directory notification for '../../../../../../Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/' was aborted.
+[2018.01.27-20.59.40:026][173]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.27-20.59.40:027][173]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.01.27-20.59.40:027][173]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.01.27-20.59.40:172][173]LogExit: Object subsystem successfully closed.
+[2018.01.27-20.59.40:196][173]LogD3D11RHI: Shutdown
+[2018.01.27-20.59.40:196][173]LogD3D11RHI: CleanupD3DDevice
+[2018.01.27-20.59.40:200][173]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.27-20.59.40:218][173]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (548)
+[2018.01.27-20.59.40:218][173]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (546)
+[2018.01.27-20.59.40:218][173]LogModuleManager: Shutting down and abandoning module BlueprintGraph (544)
+[2018.01.27-20.59.40:218][173]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (542)
+[2018.01.27-20.59.40:218][173]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (540)
+[2018.01.27-20.59.40:218][173]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
+[2018.01.27-20.59.40:218][173]LogModuleManager: Shutting down and abandoning module AddContentDialog (536)
+[2018.01.27-20.59.40:218][173]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.01.27-20.59.40:224][173]LogModuleManager: Shutting down and abandoning module WidgetCarousel (535)
+[2018.01.27-20.59.40:224][173]LogModuleManager: Shutting down and abandoning module EditorWidgets (532)
+[2018.01.27-20.59.40:224][173]LogModuleManager: Shutting down and abandoning module CollectionManager (530)
+[2018.01.27-20.59.40:224][173]LogDirectoryWatcher: A directory notification for 'C:/Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Collections/' was aborted.
+[2018.01.27-20.59.40:224][173]LogDirectoryWatcher: A directory notification for 'C:/Users/UKGC/Documents/Unreal Projects/BreakingNews/Content/Developers/UKGC/Collections/' was aborted.
+[2018.01.27-20.59.40:224][173]LogDirectoryWatcher: A directory notification for 'C:/Users/UKGC/Documents/Unreal Projects/BreakingNews/Saved/Collections/' was aborted.
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module StatsViewer (528)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module FoliageEdit (526)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module LandscapeEditor (524)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module MeshPaintMode (522)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (520)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module ActorPickerMode (518)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module GeometryMode (516)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module TextureAlignMode (514)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module BspMode (512)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (510)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module HardwareSurvey (508)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (506)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module AutomationWorker (504)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (502)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (500)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module PlacementMode (499)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (496)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (494)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (492)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (490)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (488)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (486)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (484)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (482)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (480)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module CharacterAI (478)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module AudioCapture (476)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module SequenceRecorder (475)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module SmartSnapping (472)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module SessionServices (470)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module ViewportSnapping (468)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module ViewportInteraction (466)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module ClothPainter (464)
+[2018.01.27-20.59.40:225][173]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (463)
+[2018.01.27-20.59.40:226][173]LogModuleManager: Shutting down and abandoning module LogVisualizer (460)
+[2018.01.27-20.59.40:226][173]LogModuleManager: Shutting down and abandoning module IntroTutorials (458)
+[2018.01.27-20.59.40:226][173]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (457)
+[2018.01.27-20.59.40:226][173]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (454)
+[2018.01.27-20.59.40:226][173]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (452)
+[2018.01.27-20.59.40:226][173]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (450)
+[2018.01.27-20.59.40:226][173]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (449)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (446)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (444)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (442)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module InputBindingEditor (440)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module MergeActors (438)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module SizeMap (436)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module TreeMap (434)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module ReferenceViewer (432)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (430)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module LocalizationService (429)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module HardwareTargeting (426)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (424)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module UndoHistory (422)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module XmlParser (420)
+[2018.01.27-20.59.41:096][173]LogModuleManager: Shutting down and abandoning module Blutility (418)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (416)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (415)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (412)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module SettingsEditor (410)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module ProjectLauncher (408)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module SessionFrontend (406)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module ProfilerClient (404)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module DeviceManager (402)
+[2018.01.27-20.59.41:097][173]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (401)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module AutomationController (398)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module AutomationWindow (396)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module Layers (394)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (392)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module DetailCustomizations (390)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module PackagesDialog (388)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module Persona (386)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (385)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module AnimGraph (383)
+[2018.01.27-20.59.41:151][173]LogModuleManager: Shutting down and abandoning module Kismet (380)
+[2018.01.27-20.59.41:158][173]LogModuleManager: Shutting down and abandoning module ClassViewer (378)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module Toolbox (376)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module ModuleUI (374)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module MovieSceneTools (372)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module OutputLog (370)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module GammaUI (368)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module Documentation (366)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (364)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module MovieScene (362)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (360)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module LauncherPlatform (358)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module AnalyticsET (356)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module PortalServices (354)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module PortalRpc (352)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module MessagingRpc (350)
+[2018.01.27-20.59.41:160][173]LogModuleManager: Shutting down and abandoning module AIModule (348)
+[2018.01.27-20.59.41:161][173]LogModuleManager: Shutting down and abandoning module GameplayDebugger (347)
+[2018.01.27-20.59.41:161][173]LogModuleManager: Shutting down and abandoning module AITestSuite (345)
+[2018.01.27-20.59.41:161][173]LogModuleManager: Shutting down and abandoning module DesktopPlatform (342)
+[2018.01.27-20.59.41:161][173]LogModuleManager: Shutting down and abandoning module ProfilerService (340)
+[2018.01.27-20.59.41:401][173]LogModuleManager: Shutting down and abandoning module TaskGraph (338)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (336)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (334)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (332)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (330)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module CableComponent (328)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (326)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module AndroidPermission (324)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module ActorSequence (320)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (318)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (316)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module MediaCompositing (314)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module HTML5Networking (312)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module AlembicImporter (310)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module AlembicLibrary (309)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module GeometryCache (308)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (307)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (302)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module PluginBrowser (300)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (298)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (296)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (294)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module UObjectPlugin (292)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (290)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (288)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module GitSourceControl (286)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module SourceControl (285)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (282)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (280)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (278)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module Paper2DEditor (276)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module MeshPaint (275)
+[2018.01.27-20.59.41:402][173]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
+[2018.01.27-20.59.41:404][173]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
+[2018.01.27-20.59.41:404][173]LogModuleManager: Shutting down and abandoning module MainFrame (270)
+[2018.01.27-20.59.41:404][173]LogModuleManager: Shutting down and abandoning module HotReload (269)
+[2018.01.27-20.59.41:405][173]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (264)
+[2018.01.27-20.59.41:405][173]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (262)
+[2018.01.27-20.59.41:405][173]LogModuleManager: Shutting down and abandoning module PhysXVehicles (260)
+[2018.01.27-20.59.41:405][173]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (258)
+[2018.01.27-20.59.41:405][173]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (256)
+[2018.01.27-20.59.41:405][173]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (254)
+[2018.01.27-20.59.41:405][173]LogModuleManager: Shutting down and abandoning module UdpMessaging (252)
+[2018.01.27-20.59.41:505][173]LogModuleManager: Shutting down and abandoning module TcpMessaging (250)
+[2018.01.27-20.59.41:605][173]LogModuleManager: Shutting down and abandoning module BlueManVehiclePhysics (248)
+[2018.01.27-20.59.41:605][173]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (246)
+[2018.01.27-20.59.41:605][173]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (244)
+[2018.01.27-20.59.41:605][173]LogModuleManager: Shutting down and abandoning module FacialAnimation (242)
+[2018.01.27-20.59.41:605][173]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (240)
+[2018.01.27-20.59.41:605][173]LogModuleManager: Shutting down and abandoning module GraphEditor (239)
+[2018.01.27-20.59.41:605][173]LogModuleManager: Shutting down and abandoning module ContentBrowser (237)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (234)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module Paper2D (232)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (230)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module WmfMedia (228)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module ImgMedia (226)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module MediaAssets (218)
+[2018.01.27-20.59.41:607][173]LogModuleManager: Shutting down and abandoning module Media (217)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module Overlay (214)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module OverlayEditor (213)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.01.27-20.59.41:613][173]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.01.27-20.59.41:614][173]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.01.27-20.59.41:614][173]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.01.27-20.59.41:616][173]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.01.27-20.59.41:616][173]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.01.27-20.59.41:616][173]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.01.27-20.59.41:616][173]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.01.27-20.59.41:616][173]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.01.27-20.59.41:617][173]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.01.27-20.59.41:617][173]LogModuleManager: Shutting down and abandoning module LevelSequence (164)
+[2018.01.27-20.59.41:617][173]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (162)
+[2018.01.27-20.59.41:623][173]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
+[2018.01.27-20.59.41:623][173]LogModuleManager: Shutting down and abandoning module MeshUtilities (158)
+[2018.01.27-20.59.41:623][173]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (157)
+[2018.01.27-20.59.41:623][173]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (156)
+[2018.01.27-20.59.41:624][173]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (155)
+[2018.01.27-20.59.41:624][173]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (153)
+[2018.01.27-20.59.41:624][173]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (151)
+[2018.01.27-20.59.41:624][173]LogModuleManager: Shutting down and abandoning module MaterialBaking (147)
+[2018.01.27-20.59.41:624][173]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.27-20.59.41:651][173]LogDerivedDataCache: Shutdown
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.27-20.59.41:651][173]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (95)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.27-20.59.41:652][173]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.27-20.59.41:653][173]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.27-20.59.41:653][173]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.27-20.59.41:653][173]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1FD4A13D-4978-99C7-FDBF-668E3674ACC8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=ed3317834df7a7d491482aa2d8370976%7Ce44fef83a7294e8da2c5b567464e1b2d%7C3ae88ec0-947a-4547-93f5-6d5bcf1f7ace&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.27-20.59.41:679][173]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.27-20.59.41:681][173]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.01.27-20.59.41:681][173]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.01.27-20.59.41:681][173]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.01.27-20.59.41:681][173]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.01.27-20.59.41:681][173]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.01.27-20.59.41:681][173]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.01.27-20.59.41:681][173]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.27-20.59.41:689][173]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.27-20.59.41:691][173]LogExit: Exiting.
+[2018.01.27-20.59.41:709][173]Log file closed, 01/27/18 20:59:41
