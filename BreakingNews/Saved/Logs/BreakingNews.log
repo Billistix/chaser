@@ -1,20 +1,18 @@
-﻿Log file open, 01/29/18 22:31:25
+﻿Log file open, 01/31/18 04:19:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BreakingNews
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(15932535) SRandInit(15932535).
+LogInit: Display: RandInit(-2018929226) SRandInit(-2018929226).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.168409
+LogStats: Stats thread started at 12.497735
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/BlueManVehiclePhysics/Binaries/Win64/UE4Editor-BlueManVehiclePhysics.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
@@ -185,470 +183,1225 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: E:/Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.29-22.31.26:973][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.29-22.31.26:973][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.29-22.31.26:992][  0]LogInit: Computer: DESKTOP-5KF05JH
-[2018.01.29-22.31.26:992][  0]LogInit: User: UKGC
-[2018.01.29-22.31.26:992][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.29-22.31.26:992][  0]LogInit: High frequency timer resolution =2.929689 MHz
-[2018.01.29-22.31.26:992][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.01.29-22.31.26:992][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-22.31.26:992][  0]LogMemory: Process Physical Memory: 271.43 MB used, 271.43 MB peak
-[2018.01.29-22.31.26:992][  0]LogMemory: Process Virtual Memory: 271.28 MB used, 271.28 MB peak
-[2018.01.29-22.31.26:992][  0]LogMemory: Physical Memory: 7604.21 MB used,  8723.19 MB free, 16327.40 MB total
-[2018.01.29-22.31.26:992][  0]LogMemory: Virtual Memory: 641.89 MB used,  8723.19 MB free, 134217728.00 MB total
-[2018.01.29-22.31.27:381][  0]LogInit: Using OS detected language (en-GB).
-[2018.01.29-22.31.27:381][  0]LogInit: Using OS detected locale (en-GB).
-[2018.01.29-22.31.27:430][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.01.29-22.31.27:853][  0]LogInit: Setting process to per monitor DPI aware
-[2018.01.29-22.31.29:978][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.29-22.31.30:057][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.01.29-22.31.30:057][  0]LogD3D11RHI:       6061/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.01.29-22.31.30:058][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.29-22.31.30:058][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.29-22.31.30:058][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.29-22.31.30:065][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.29-22.31.30:065][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.29-22.31.30:065][  0]LogWindows: EnumDisplayDevices:
-[2018.01.29-22.31.30:065][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.01.29-22.31.30:065][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.01.29-22.31.30:065][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.01.29-22.31.30:065][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.01.29-22.31.30:065][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.01.29-22.31.30:065][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.01.29-22.31.30:065][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2018.01.29-22.31.30:065][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2018.01.29-22.31.30:065][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
-[2018.01.29-22.31.30:097][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.29-22.31.30:107][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.01.29-22.31.30:156][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Intermediate/Shaders/WorkingDirectory/10352/).
-[2018.01.29-22.31.30:156][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/UKGC/AppData/Local/Temp/UnrealShaderWorkingDir/DCCFE9A84AD5578159C483A6ABD4DA92/'.
-[2018.01.29-22.31.30:156][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.01.29-22.31.32:031][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.29-22.31.32:085][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.01.29-22.31.32:140][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.29-22.31.32:193][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.01.29-22.31.32:251][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.01.29-22.31.32:305][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.29-22.31.32:360][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.29-22.31.32:414][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.29-22.31.32:460][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.01.29-22.31.32:510][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.29-22.31.32:560][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.29-22.31.32:610][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.29-22.31.32:660][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.29-22.31.32:712][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.29-22.31.32:812][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.29-22.31.32:812][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.29-22.31.32:869][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.01.29-22.31.32:913][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.01.29-22.31.33:019][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.01.29-22.31.33:046][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.01.29-22.31.33:096][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.29-22.31.33:148][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.29-22.31.33:199][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.29-22.31.33:253][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.01.29-22.31.33:253][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.01.29-22.31.33:762][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.01.29-22.31.33:835][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/UKGC/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.29-22.31.33:835][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/UKGC/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.01.29-22.31.33:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.29-22.31.33:835][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.29-22.31.33:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.29-22.31.33:835][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.29-22.31.33:866][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.29-22.31.33:878][  0]LogDerivedDataCache: Using Local data cache path C:/Users/UKGC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.29-22.31.33:888][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.29-22.31.33:888][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.29-22.31.33:899][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.29-22.31.33:899][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.29-22.31.34:349][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.29-22.31.34:840][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.29-22.31.34:884][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.29-22.31.34:884][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.29-22.31.34:884][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.01.29-22.31.34:884][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.01.29-22.31.34:884][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.01.29-22.31.34:930][  0]LogNetVersion: BreakingNews , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2726771752)
-[2018.01.29-22.31.35:268][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2018.01.29-22.31.36:089][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.050168 seconds
-[2018.01.29-22.31.36:095][  0]LogUObjectArray: 35459 objects as part of root set at end of initial load.
-[2018.01.29-22.31.36:095][  0]LogUObjectAllocator: 7283808 out of 0 bytes used by permanent object pool.
-[2018.01.29-22.31.36:095][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.29-22.31.36:154][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.29-22.31.40:384][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.29-22.31.40:429][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.29-22.31.41:137][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.29-22.31.41:632][  0]SourceControl: Source control is disabled
-[2018.01.29-22.31.41:633][  0]SourceControl: Source control is disabled
-[2018.01.29-22.31.41:687][  0]SourceControl: Source control is disabled
-[2018.01.29-22.31.41:739][  0]SourceControl: Source control is disabled
-[2018.01.29-22.31.42:603][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.29-22.31.43:075][  0]LogEngine: Initializing Engine...
-[2018.01.29-22.31.43:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.29-22.31.43:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.29-22.31.43:543][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.29-22.31.43:551][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.29-22.31.43:566][  0]LogInit: FAudioDevice initialized.
-[2018.01.29-22.31.43:706][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/UKGC/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.29-22.31.43:719][  0]LogInit: Texture streaming: Enabled
-[2018.01.29-22.31.43:824][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.29-22.31.43:970][  0]LogInit: Transaction tracking system initialized
-[2018.01.29-22.31.44:289][  0]BlueprintLog: New page: Editor Load
-[2018.01.29-22.31.45:212][  0]LocalizationService: Localization service is disabled
-[2018.01.29-22.31.45:991][  0]LogConsoleResponse: Display: 
-[2018.01.29-22.31.46:454][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.29-22.31.46:454][  0]LogCook: Display: Mobile HDR setting 1
-[2018.01.29-22.31.46:454][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.01.29-22.31.47:787][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/' took 0.02s
-[2018.01.29-22.31.47:843][  0]SourceControl: Source control is disabled
-[2018.01.29-22.31.47:843][  0]Cmd: MAP LOAD FILE="../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-22.31.47:843][  0]LightingResults: New page: Lighting Build
-[2018.01.29-22.31.47:905][  0]MapCheck: New page: Map Check
-[2018.01.29-22.31.47:905][  0]LightingResults: New page: Lighting Build
-[2018.01.29-22.31.48:559][  0]LogAIModule: Creating AISystem for world TestLevel
-[2018.01.29-22.31.48:612][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-22.31.48:624][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-22.31.48:674][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.981ms to complete.
-[2018.01.29-22.31.48:674][  0]LogFileHelpers: Loading map 'TestLevel' took 0.831
-[2018.01.29-22.31.48:850][  0]LogCollectionManager: Loaded 0 collections in 0.001974 seconds
-[2018.01.29-22.31.48:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UKGC/Documents/GitHub/chaser/BreakingNews/Saved/Collections/' took 0.01s
-[2018.01.29-22.31.48:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Developers/UKGC/Collections/' took 0.01s
-[2018.01.29-22.31.48:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Collections/' took 0.01s
-[2018.01.29-22.31.48:935][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.01.29-22.31.48:944][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2362 classes and 513 folders.
-[2018.01.29-22.31.49:026][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.01.29-22.31.49:346][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.01.29-22.31.49:393][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.01.29-22.31.49:510][  0]LogSlate: Took 0.012372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.29-22.31.49:517][  0]LogSlate: Took 0.005179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.29-22.31.49:527][  0]LogSlate: Took 0.003976 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.29-22.31.49:674][  0]LogRenderer: Reallocating scene render targets to support 1204x692 Format 10 NumSamples 1 (Frame:1).
-[2018.01.29-22.31.49:724][  0]LogSlate: Took 0.003628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.29-22.31.49:858][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.01.29-22.31.49:858][  0]LogLoad: (Engine Initialization) Total time: 25.70 seconds
-[2018.01.29-22.31.49:858][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.01.29-22.31.49:858][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.01.29-22.31.49:887][  0]LogAssetRegistry: Asset discovery search completed in 14.6413 seconds
-[2018.01.29-22.31.49:889][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.01.29-22.31.49:889][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2018.01.29-22.31.49:892][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.29-22.31.50:892][ 76]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.29-22.31.51:256][119]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.29-22.31.51:274][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.01.29-22.31.51:799][119]LogSavePackage: Save=481.55ms
-[2018.01.29-22.31.51:799][119]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Saved/TestLevel0C4541C342E67CCCEBF2A79D974105D9.tmp' to '../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Maps/TestLevel.umap'
-[2018.01.29-22.31.51:800][119]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Maps/TestLevel.umap
-[2018.01.29-22.31.51:830][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel_BuiltData" FILE="../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset" SILENT=true
-[2018.01.29-22.31.52:232][119]LogSavePackage: Save=377.77ms
-[2018.01.29-22.31.52:232][119]LogSavePackage: Moving '../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Saved/TestLevel_BuiltData3D65ABEB4EDEF0AE9F6AB8983281B3AD.tmp' to '../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset'
-[2018.01.29-22.31.52:233][119]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Maps/TestLevel_BuiltData.uasset
-[2018.01.29-22.31.52:603][156]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.29-22.31.52:644][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-22.31.52:645][156]PIE: New page: PIE session: TestLevel (29 Jan 2018 22:31:52)
-[2018.01.29-22.31.52:645][156]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
-[2018.01.29-22.31.52:661][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016048s)
-[2018.01.29-22.31.52:662][156]LogAIModule: Creating AISystem for world TestLevel
-[2018.01.29-22.31.52:662][156]LogPlayLevel: PIE: World Init took: (0.000566s)
-[2018.01.29-22.31.52:662][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.016947s)
-[2018.01.29-22.31.52:675][156]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.29-22.31.52:685][156]LogInit: FAudioDevice initialized.
-[2018.01.29-22.31.52:817][156]LogLoad: Game class is 'GM_Chase_C'
-[2018.01.29-22.31.52:825][156]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.29-22.31.52
-[2018.01.29-22.31.52:827][156]LogWorld: Bringing up level for play took: 0.007916
-[2018.01.29-22.31.52:874][156]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.01.29-22.31.52:882][156]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.013
-[2018.01.29-22.31.55:645][439]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.01.29-22.31.55:833][440]Cmd: QUIT_EDITOR
-[2018.01.29-22.31.55:901][440]LogExit: Preparing to exit.
-[2018.01.29-22.31.56:503][440]LogDirectoryWatcher: A directory notification for 'C:/Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/' was aborted.
-[2018.01.29-22.31.56:533][440]LogExit: Editor shut down
-[2018.01.29-22.31.56:535][440]LogExit: Transaction tracking system shut down
-[2018.01.29-22.31.56:639][440]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.01.29-22.31.56:639][440]LogDirectoryWatcher: A directory notification for '../../../../../../Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/' was aborted.
-[2018.01.29-22.31.56:639][440]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.01.29-22.31.56:639][440]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.01.29-22.31.56:639][440]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.01.29-22.31.56:679][440]LogExit: Object subsystem successfully closed.
-[2018.01.29-22.31.56:793][440]LogD3D11RHI: Shutdown
-[2018.01.29-22.31.56:793][440]LogD3D11RHI: CleanupD3DDevice
-[2018.01.29-22.31.56:827][440]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.01.29-22.31.56:841][440]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (542)
-[2018.01.29-22.31.56:841][440]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (540)
-[2018.01.29-22.31.56:841][440]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
-[2018.01.29-22.31.56:841][440]LogModuleManager: Shutting down and abandoning module AddContentDialog (536)
-[2018.01.29-22.31.56:841][440]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.01.29-22.31.56:844][440]LogModuleManager: Shutting down and abandoning module WidgetCarousel (535)
-[2018.01.29-22.31.56:844][440]LogModuleManager: Shutting down and abandoning module EditorWidgets (532)
-[2018.01.29-22.31.56:844][440]LogModuleManager: Shutting down and abandoning module CollectionManager (530)
-[2018.01.29-22.31.56:844][440]LogDirectoryWatcher: A directory notification for 'C:/Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Collections/' was aborted.
-[2018.01.29-22.31.56:845][440]LogDirectoryWatcher: A directory notification for 'C:/Users/UKGC/Documents/GitHub/chaser/BreakingNews/Content/Developers/UKGC/Collections/' was aborted.
-[2018.01.29-22.31.56:845][440]LogDirectoryWatcher: A directory notification for 'C:/Users/UKGC/Documents/GitHub/chaser/BreakingNews/Saved/Collections/' was aborted.
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module StatsViewer (528)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module FoliageEdit (526)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module LandscapeEditor (524)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module MeshPaintMode (522)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (520)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module ActorPickerMode (518)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module GeometryMode (516)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module TextureAlignMode (514)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module BspMode (512)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (510)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module HardwareSurvey (508)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (506)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module AutomationWorker (504)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (502)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (500)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module PlacementMode (499)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (496)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (494)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (492)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (490)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (488)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (486)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (484)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (482)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (480)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module CharacterAI (478)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module AudioCapture (476)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module SequenceRecorder (475)
-[2018.01.29-22.31.56:845][440]LogModuleManager: Shutting down and abandoning module SmartSnapping (472)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module SessionServices (470)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module ViewportSnapping (468)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module ViewportInteraction (466)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module ClothPainter (464)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (463)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module LogVisualizer (460)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module IntroTutorials (458)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (457)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (454)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (452)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (450)
-[2018.01.29-22.31.56:846][440]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (449)
-[2018.01.29-22.31.57:604][440]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (446)
-[2018.01.29-22.31.57:604][440]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (444)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (442)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module InputBindingEditor (440)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module MergeActors (438)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module SizeMap (436)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module TreeMap (434)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module ReferenceViewer (432)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (430)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module LocalizationService (429)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module HardwareTargeting (426)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (424)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module UndoHistory (422)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module XmlParser (420)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module Blutility (418)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (416)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (415)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (412)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module SettingsEditor (410)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module ProjectLauncher (408)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module SessionFrontend (406)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module ProfilerClient (404)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module DeviceManager (402)
-[2018.01.29-22.31.57:605][440]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (401)
-[2018.01.29-22.31.57:658][440]LogModuleManager: Shutting down and abandoning module AutomationController (398)
-[2018.01.29-22.31.57:658][440]LogModuleManager: Shutting down and abandoning module AutomationWindow (396)
-[2018.01.29-22.31.57:658][440]LogModuleManager: Shutting down and abandoning module Layers (394)
-[2018.01.29-22.31.57:658][440]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (392)
-[2018.01.29-22.31.57:658][440]LogModuleManager: Shutting down and abandoning module DetailCustomizations (390)
-[2018.01.29-22.31.57:658][440]LogModuleManager: Shutting down and abandoning module PackagesDialog (388)
-[2018.01.29-22.31.57:658][440]LogModuleManager: Shutting down and abandoning module Persona (386)
-[2018.01.29-22.31.57:659][440]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (385)
-[2018.01.29-22.31.57:659][440]LogModuleManager: Shutting down and abandoning module AnimGraph (383)
-[2018.01.29-22.31.57:659][440]LogModuleManager: Shutting down and abandoning module Kismet (380)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module ClassViewer (378)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module Toolbox (376)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module ModuleUI (374)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module MovieSceneTools (372)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module OutputLog (370)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module GammaUI (368)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module Documentation (366)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (364)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module MovieScene (362)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (360)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module LauncherPlatform (358)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module AnalyticsET (356)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module PortalServices (354)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module PortalRpc (352)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module MessagingRpc (350)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module AIModule (348)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module GameplayDebugger (347)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module AITestSuite (345)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module DesktopPlatform (342)
-[2018.01.29-22.31.57:660][440]LogModuleManager: Shutting down and abandoning module ProfilerService (340)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module TaskGraph (338)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (336)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (334)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (332)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (330)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module CableComponent (328)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (326)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module AndroidPermission (324)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module ActorSequence (320)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (318)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (316)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module MediaCompositing (314)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module HTML5Networking (312)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module AlembicImporter (310)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module AlembicLibrary (309)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module GeometryCache (308)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (307)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (302)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module PluginBrowser (300)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (298)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (296)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (294)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module UObjectPlugin (292)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (290)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (288)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module GitSourceControl (286)
-[2018.01.29-22.31.57:773][440]LogModuleManager: Shutting down and abandoning module SourceControl (285)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (282)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (280)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (278)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module Paper2DEditor (276)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module MeshPaint (275)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module MainFrame (270)
-[2018.01.29-22.31.57:774][440]LogModuleManager: Shutting down and abandoning module HotReload (269)
-[2018.01.29-22.31.57:775][440]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (264)
-[2018.01.29-22.31.57:775][440]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (262)
-[2018.01.29-22.31.57:775][440]LogModuleManager: Shutting down and abandoning module PhysXVehicles (260)
-[2018.01.29-22.31.57:775][440]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (258)
-[2018.01.29-22.31.57:775][440]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (256)
-[2018.01.29-22.31.57:775][440]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (254)
-[2018.01.29-22.31.57:775][440]LogModuleManager: Shutting down and abandoning module UdpMessaging (252)
-[2018.01.29-22.31.57:876][440]LogModuleManager: Shutting down and abandoning module TcpMessaging (250)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module BlueManVehiclePhysics (248)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (246)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (244)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module FacialAnimation (242)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (240)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module GraphEditor (239)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module ContentBrowser (237)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (234)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module Paper2D (232)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (230)
-[2018.01.29-22.31.57:977][440]LogModuleManager: Shutting down and abandoning module WmfMedia (228)
-[2018.01.29-22.31.57:978][440]LogModuleManager: Shutting down and abandoning module ImgMedia (226)
-[2018.01.29-22.31.57:978][440]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
-[2018.01.29-22.31.57:978][440]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
-[2018.01.29-22.31.57:978][440]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
-[2018.01.29-22.31.57:978][440]LogModuleManager: Shutting down and abandoning module MediaAssets (218)
-[2018.01.29-22.31.57:978][440]LogModuleManager: Shutting down and abandoning module Media (217)
-[2018.01.29-22.31.57:983][440]LogModuleManager: Shutting down and abandoning module Overlay (214)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module OverlayEditor (213)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2018.01.29-22.31.57:984][440]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module Core (168)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module LevelSequence (164)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (162)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module MeshUtilities (158)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (157)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (156)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (155)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (153)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (151)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module MaterialBaking (147)
-[2018.01.29-22.31.57:986][440]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.01.29-22.31.58:384][440]LogDerivedDataCache: Shutdown
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.01.29-22.31.58:384][440]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (95)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.01.29-22.31.58:385][440]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.01.29-22.31.58:385][440]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.01.29-22.31.58:385][440]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B09DCFFB7-4CD2-E188-44C7-1DB11DDC380B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=ed3317834df7a7d491482aa2d8370976%7Ce44fef83a7294e8da2c5b567464e1b2d%7C3ae88ec0-947a-4547-93f5-6d5bcf1f7ace&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.01.29-22.31.58:400][440]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.01.29-22.31.58:401][440]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.01.29-22.31.58:401][440]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.01.29-22.31.58:401][440]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.01.29-22.31.58:401][440]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.01.29-22.31.58:401][440]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.01.29-22.31.58:401][440]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.01.29-22.31.58:401][440]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.01.29-22.31.58:402][440]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.01.29-22.31.58:406][440]LogExit: Exiting.
-[2018.01.29-22.31.58:420][440]Log file closed, 01/29/18 22:31:58
+[2018.01.31-03.19.33:995][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.31-03.19.33:995][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.31-03.19.34:104][  0]LogInit: Computer: WHITEWALKER
+[2018.01.31-03.19.34:104][  0]LogInit: User: Syzygy
+[2018.01.31-03.19.34:104][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.31-03.19.34:104][  0]LogInit: High frequency timer resolution =3.312647 MHz
+[2018.01.31-03.19.34:104][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.31-03.19.34:104][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.31-03.19.34:104][  0]LogMemory: Process Physical Memory: 271.30 MB used, 271.30 MB peak
+[2018.01.31-03.19.34:104][  0]LogMemory: Process Virtual Memory: 269.71 MB used, 269.71 MB peak
+[2018.01.31-03.19.34:104][  0]LogMemory: Physical Memory: 7520.66 MB used,  8801.39 MB free, 16322.05 MB total
+[2018.01.31-03.19.34:104][  0]LogMemory: Virtual Memory: 674.57 MB used,  8801.39 MB free, 134217728.00 MB total
+[2018.01.31-03.19.40:448][  0]LogInit: Using OS detected language (en-US).
+[2018.01.31-03.19.40:448][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.31-03.19.41:267][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.31-03.19.44:791][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.31-03.19.47:608][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.31-03.19.47:648][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2018.01.31-03.19.47:648][  0]LogD3D11RHI:       2017/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.31-03.19.47:650][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.31-03.19.47:650][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.31-03.19.47:650][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.31-03.19.47:658][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.31-03.19.47:658][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.31-03.19.47:658][  0]LogWindows: EnumDisplayDevices:
+[2018.01.31-03.19.47:658][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2018.01.31-03.19.47:658][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2018.01.31-03.19.47:658][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2018.01.31-03.19.47:658][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2018.01.31-03.19.47:659][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.31-03.19.47:659][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2018.01.31-03.19.47:659][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.31-03.19.47:659][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.31-03.19.47:659][  0]LogRHI: Texture pool is 1412 MB (70% of 2017 MB)
+[2018.01.31-03.19.47:679][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.31-03.19.47:691][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.31-03.19.47:693][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Intermediate/Shaders/WorkingDirectory/3660/).
+[2018.01.31-03.19.47:694][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Syzygy/AppData/Local/Temp/UnrealShaderWorkingDir/8A1DDC5C4B652A9F0DECC39BD9223C89/'.
+[2018.01.31-03.19.47:694][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.31-03.19.50:886][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.31-03.19.50:931][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.31-03.19.50:977][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.31-03.19.51:022][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.31-03.19.51:090][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.31-03.19.51:134][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.31-03.19.51:179][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.31-03.19.51:226][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.31-03.19.51:264][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.31-03.19.51:308][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.31-03.19.51:352][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.31-03.19.51:397][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.31-03.19.51:445][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.31-03.19.51:492][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.31-03.19.51:582][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.31-03.19.51:582][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.31-03.19.51:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.31-03.19.51:676][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.31-03.19.51:874][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.31-03.19.51:896][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.31-03.19.51:940][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.31-03.19.51:984][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.31-03.19.52:028][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.31-03.19.52:075][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.31-03.19.52:075][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.31-03.19.53:955][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.31-03.19.54:362][  0]LogDerivedDataCache: Loaded boot cache 0.41s 80MB C:/Users/Syzygy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.31-03.19.54:362][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Syzygy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.31-03.19.54:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.31-03.19.54:362][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.31-03.19.54:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.31-03.19.54:362][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.31-03.19.54:479][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.31-03.19.54:499][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Syzygy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.31-03.19.54:509][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.31-03.19.54:510][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.31-03.19.54:654][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.31-03.19.54:654][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.31-03.20.02:253][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.31-03.20.04:104][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.31-03.20.04:164][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.31-03.20.04:194][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.31-03.20.04:194][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.31-03.20.04:194][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.31-03.20.04:194][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.31-03.20.04:324][  0]LogNetVersion: BreakingNews , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2726771752)
+[2018.01.31-03.20.05:290][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.01.31-03.20.14:492][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.054451 seconds
+[2018.01.31-03.20.14:497][  0]LogUObjectArray: 35459 objects as part of root set at end of initial load.
+[2018.01.31-03.20.14:497][  0]LogUObjectAllocator: 7283808 out of 0 bytes used by permanent object pool.
+[2018.01.31-03.20.14:497][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.31-03.20.14:534][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.31-03.21.32:572][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.31-03.21.32:614][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.31-03.21.34:552][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.31-03.21.35:096][  0]SourceControl: Source control is disabled
+[2018.01.31-03.21.35:096][  0]SourceControl: Source control is disabled
+[2018.01.31-03.21.35:150][  0]SourceControl: Source control is disabled
+[2018.01.31-03.21.35:205][  0]SourceControl: Source control is disabled
+[2018.01.31-03.21.37:019][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.31-03.21.37:664][  0]LogEngine: Initializing Engine...
+[2018.01.31-03.21.38:055][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.31-03.21.38:055][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.31-03.21.38:299][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.31-03.21.38:319][  0]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.21.38:330][  0]LogInit: FAudioDevice initialized.
+[2018.01.31-03.21.38:411][  0]LogDerivedDataCache: Saved boot cache 0.08s 80MB C:/Users/Syzygy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.31-03.21.38:429][  0]LogInit: Texture streaming: Enabled
+[2018.01.31-03.21.38:501][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.31-03.21.38:685][  0]LogInit: Transaction tracking system initialized
+[2018.01.31-03.21.39:093][  0]BlueprintLog: New page: Editor Load
+[2018.01.31-03.21.40:958][  0]LocalizationService: Localization service is disabled
+[2018.01.31-03.21.43:126][  0]LogConsoleResponse: Display: 
+[2018.01.31-03.21.45:691][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.31-03.21.45:691][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.31-03.21.45:691][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.31-03.21.45:847][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/' took 0.01s
+[2018.01.31-03.21.48:143][  0]SourceControl: Source control is disabled
+[2018.01.31-03.21.48:143][  0]Cmd: MAP LOAD FILE="C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.31-03.21.48:143][  0]LightingResults: New page: Lighting Build
+[2018.01.31-03.21.48:178][  0]MapCheck: New page: Map Check
+[2018.01.31-03.21.48:178][  0]LightingResults: New page: Lighting Build
+[2018.01.31-03.21.48:564][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestLevel_BuiltData'
+[2018.01.31-03.21.48:564][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestLevel_BuiltData' while loading C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Maps/TestLevel.umap.
+[2018.01.31-03.21.48:564][  0]LoadErrors: Error: /Game/Maps/TestLevel : Can't find file for asset. /Game/Maps/TestLevel_BuiltData
+[2018.01.31-03.21.48:568][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestLevel_BuiltData'
+[2018.01.31-03.21.48:568][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestLevel_BuiltData' while loading C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Maps/TestLevel.umap.
+[2018.01.31-03.21.48:568][  0]LoadErrors: Error: /Game/Maps/TestLevel : Can't find file for asset. /Game/Maps/TestLevel_BuiltData
+[2018.01.31-03.21.48:634][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestLevel_BuiltData'
+[2018.01.31-03.21.48:634][  0]LoadErrors: Failed to load /Game/Maps/TestLevel_BuiltData.TestLevel_BuiltData Referenced by PersistentLevel
+[2018.01.31-03.21.48:634][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestLevel_BuiltData' while loading NULL.
+[2018.01.31-03.21.48:634][  0]LoadErrors: Failed to load /Game/Maps/TestLevel_BuiltData.TestLevel_BuiltData Referenced by PersistentLevel
+[2018.01.31-03.21.48:877][  0]LogStaticMesh: Building static mesh TruckWhiteBox...
+[2018.01.31-03.21.48:901][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Player/TruckWhiteBox.TruckWhiteBox
+[2018.01.31-03.21.49:060][  0]LogStaticMesh: Building static mesh SM_Truck_Trailer...
+[2018.01.31-03.21.49:066][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Player/SM_Truck_Trailer.SM_Truck_Trailer
+[2018.01.31-03.21.49:158][  0]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.21.49:312][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.31-03.21.49:324][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.31-03.21.49:388][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.232ms to complete.
+[2018.01.31-03.21.49:388][  0]LogFileHelpers: Loading map 'TestLevel' took 1.245
+[2018.01.31-03.21.49:786][  0]LogCollectionManager: Loaded 0 collections in 0.001927 seconds
+[2018.01.31-03.21.49:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Collections/' took 0.01s
+[2018.01.31-03.21.49:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Developers/Syzygy/Collections/' took 0.01s
+[2018.01.31-03.21.49:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Collections/' took 0.01s
+[2018.01.31-03.21.49:863][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.31-03.21.49:872][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2362 classes and 513 folders.
+[2018.01.31-03.21.49:924][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.31-03.21.51:056][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.31-03.21.51:139][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.01.31-03.21.51:250][  0]LogSlate: Took 0.055074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.31-03.21.51:263][  0]LogSlate: Took 0.011660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.31-03.21.51:293][  0]LogSlate: Took 0.025098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.31-03.21.51:490][  0]LogRenderer: Reallocating scene render targets to support 1208x672 Format 10 NumSamples 1 (Frame:1).
+[2018.01.31-03.21.51:545][  0]LogSlate: Took 0.004223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.31-03.21.51:720][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.01.31-03.21.51:720][  0]LogLoad: (Engine Initialization) Total time: 182.30 seconds
+[2018.01.31-03.21.51:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.31-03.21.51:720][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.31-03.21.51:720][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.31-03.21.52:079][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.31-03.21.52:408][  1]LogAssetRegistry: Asset discovery search completed in 107.1398 seconds
+[2018.01.31-03.21.52:411][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.31-03.21.52:411][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2018.01.31-03.30.18:521][919]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.30.18:569][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.30.18:570][919]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:30:18 AM)
+[2018.01.31-03.30.18:571][919]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.30.18:587][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015793s)
+[2018.01.31-03.30.18:587][919]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.30.18:587][919]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2018.01.31-03.30.18:588][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.017171s)
+[2018.01.31-03.30.18:610][919]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.30.18:616][919]LogInit: FAudioDevice initialized.
+[2018.01.31-03.30.18:850][919]LogTexture: Display: Building textures: maxresdefault (BGRA8, 1920X1080)
+[2018.01.31-03.30.18:850][919]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.30.18:917][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.30.18
+[2018.01.31-03.30.18:920][919]LogWorld: Bringing up level for play took: 0.009099
+[2018.01.31-03.30.18:955][919]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.01.31-03.30.18:965][919]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.19
+[2018.01.31-03.30.32:285][188]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.30.32:300][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.30.32:300][188]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:30:32 AM)
+[2018.01.31-03.30.32:300][188]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.30.32:318][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017085s)
+[2018.01.31-03.30.32:318][188]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.30.32:318][188]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2018.01.31-03.30.32:318][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.017930s)
+[2018.01.31-03.30.32:337][188]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.30.32:341][188]LogInit: FAudioDevice initialized.
+[2018.01.31-03.30.32:375][188]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.30.32:382][188]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.30.32
+[2018.01.31-03.30.32:386][188]LogWorld: Bringing up level for play took: 0.009345
+[2018.01.31-03.30.32:395][188]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.76
+[2018.01.31-03.30.40:128][960]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.30.40:144][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.30.40:144][960]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:30:40 AM)
+[2018.01.31-03.30.40:144][960]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.30.40:162][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017694s)
+[2018.01.31-03.30.40:163][960]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.30.40:163][960]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2018.01.31-03.30.40:163][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.018822s)
+[2018.01.31-03.30.40:181][960]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.30.40:184][960]LogInit: FAudioDevice initialized.
+[2018.01.31-03.30.40:216][960]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.30.40:224][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.30.40
+[2018.01.31-03.30.40:227][960]LogWorld: Bringing up level for play took: 0.009071
+[2018.01.31-03.30.40:237][960]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.082
+[2018.01.31-03.30.51:461][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.30.51:478][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.30.51:478][ 88]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:30:51 AM)
+[2018.01.31-03.30.51:478][ 88]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.30.51:494][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016242s)
+[2018.01.31-03.30.51:495][ 88]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.30.51:495][ 88]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2018.01.31-03.30.51:495][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.017175s)
+[2018.01.31-03.30.51:515][ 88]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.30.51:519][ 88]LogInit: FAudioDevice initialized.
+[2018.01.31-03.30.51:553][ 88]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.30.51:563][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.30.51
+[2018.01.31-03.30.51:566][ 88]LogWorld: Bringing up level for play took: 0.010550
+[2018.01.31-03.30.51:576][ 88]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.421
+[2018.01.31-03.31.45:725][607]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.31-03.31.46:063][607]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.01.31-03.31.46:835][607]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.31-03.31.47:173][607]LogSlate: Took 0.057993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.31-03.31.47:478][608]LogSlate: Took 0.038520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.31-03.32.11:872][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor7)
+[2018.01.31-03.32.13:258][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor16)
+[2018.01.31-03.32.13:812][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor16)
+[2018.01.31-03.32.25:118][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor7)
+[2018.01.31-03.32.25:982][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor7)
+[2018.01.31-03.32.26:976][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor7)
+[2018.01.31-03.32.35:219][871]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor6)
+[2018.01.31-03.32.53:616][935]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.32.53:645][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.32.53:645][935]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:32:53 AM)
+[2018.01.31-03.32.53:645][935]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.32.53:667][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022341s)
+[2018.01.31-03.32.53:668][935]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.32.53:668][935]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2018.01.31-03.32.53:669][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.023680s)
+[2018.01.31-03.32.53:702][935]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.32.53:706][935]LogInit: FAudioDevice initialized.
+[2018.01.31-03.32.53:737][935]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.32.53:745][935]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.32.53
+[2018.01.31-03.32.53:748][935]LogWorld: Bringing up level for play took: 0.009651
+[2018.01.31-03.32.53:757][935]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.602
+[2018.01.31-03.32.56:931][217]Cmd: TRANSACTION UNDO
+[2018.01.31-03.32.56:931][217]LogEditorTransaction: Undo Move Actors
+[2018.01.31-03.32.56:944][217]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.31-03.33.10:372][683]Cmd: EDIT COPY
+[2018.01.31-03.33.10:616][711]Cmd: EDIT PASTE
+[2018.01.31-03.33.38:689][984]Cmd: TRANSACTION UNDO
+[2018.01.31-03.33.38:689][984]LogEditorTransaction: Undo Set Scale
+[2018.01.31-03.34.07:485][276]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.34.07:501][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.34.07:501][276]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:34:07 AM)
+[2018.01.31-03.34.07:502][276]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.34.07:521][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019328s)
+[2018.01.31-03.34.07:521][276]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.34.07:522][276]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2018.01.31-03.34.07:522][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.020474s)
+[2018.01.31-03.34.07:556][276]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.34.07:561][276]LogInit: FAudioDevice initialized.
+[2018.01.31-03.34.07:589][276]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.34.07:598][276]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.34.07
+[2018.01.31-03.34.07:601][276]LogWorld: Bringing up level for play took: 0.009083
+[2018.01.31-03.34.07:610][276]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.455
+[2018.01.31-03.35.23:402][483]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.35.23:425][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.35.23:425][483]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:35:23 AM)
+[2018.01.31-03.35.23:425][483]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.35.23:442][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017107s)
+[2018.01.31-03.35.23:443][483]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.35.23:443][483]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2018.01.31-03.35.23:443][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.018170s)
+[2018.01.31-03.35.23:474][483]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.35.23:478][483]LogInit: FAudioDevice initialized.
+[2018.01.31-03.35.23:511][483]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.35.23:520][483]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.35.23
+[2018.01.31-03.35.23:523][483]LogWorld: Bringing up level for play took: 0.009228
+[2018.01.31-03.35.23:533][483]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.377
+[2018.01.31-03.37.03:423][285]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.37.03:444][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.37.03:444][285]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:37:03 AM)
+[2018.01.31-03.37.03:444][285]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.37.03:462][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017425s)
+[2018.01.31-03.37.03:462][285]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.37.03:462][285]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2018.01.31-03.37.03:463][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.018457s)
+[2018.01.31-03.37.03:493][285]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.37.03:497][285]LogInit: FAudioDevice initialized.
+[2018.01.31-03.37.03:529][285]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.37.03:537][285]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.37.03
+[2018.01.31-03.37.03:540][285]LogWorld: Bringing up level for play took: 0.008763
+[2018.01.31-03.37.03:549][285]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.394
+[2018.01.31-03.38.23:421][162]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Parent_C (BP_NPC_Parent16)
+[2018.01.31-03.38.36:978][264]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.38.36:998][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.38.36:998][264]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:38:36 AM)
+[2018.01.31-03.38.36:998][264]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.38.37:015][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017125s)
+[2018.01.31-03.38.37:016][264]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.38.37:016][264]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2018.01.31-03.38.37:016][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.018389s)
+[2018.01.31-03.38.37:045][264]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.38.37:049][264]LogInit: FAudioDevice initialized.
+[2018.01.31-03.38.37:083][264]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.38.37:092][264]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.38.37
+[2018.01.31-03.38.37:096][264]LogWorld: Bringing up level for play took: 0.011121
+[2018.01.31-03.38.37:106][264]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.049
+[2018.01.31-03.39.46:572][807]LogSlate: Took 0.004797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.31-03.48.55:104][250]LogSavePackage: Save=494.11ms
+[2018.01.31-03.48.55:104][250]LogSavePackage: Moving 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/TestLevel_Auto174C3E9E34B7F87930D658B89C911AA46.tmp' to 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Maps/TestLevel_Auto1.umap'
+[2018.01.31-03.48.55:107][250]LogSavePackage: Display: Finished SavePackage C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Maps/TestLevel_Auto1.umap
+[2018.01.31-03.48.55:109][250]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.535
+[2018.01.31-03.48.55:109][250]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.535
+[2018.01.31-03.48.55:113][250]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Controller_SimpleAI] ([1] browsable assets)...
+[2018.01.31-03.48.55:113][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/Controller_SimpleAI]
+[2018.01.31-03.48.55:194][250]LogSavePackage: Save=69.22ms
+[2018.01.31-03.48.55:194][250]LogSavePackage: Moving 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Controller_SimpleAI_Auto1C9CC00A14A7816F49F77148AAC7AFE2F.tmp' to 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Controller_SimpleAI_Auto1.uasset'
+[2018.01.31-03.48.55:197][250]LogSavePackage: Display: Finished SavePackage C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Controller_SimpleAI_Auto1.uasset
+[2018.01.31-03.48.55:197][250]LogFileHelpers: Auto-saving content packages took 0.085
+[2018.01.31-03.51.10:928][503]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.51.10:950][503]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.31-03.51.10:963][503]LogPlayLevel: [PlayLevel] Compiling Controller_SimpleAI before play...
+[2018.01.31-03.51.11:209][503]LogPlayLevel: PlayLevel: Blueprint regeneration took 258 ms (1 blueprints)
+[2018.01.31-03.51.11:209][503]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:51:11 AM)
+[2018.01.31-03.51.11:209][503]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.51.11:226][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017226s)
+[2018.01.31-03.51.11:227][503]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.51.11:227][503]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2018.01.31-03.51.11:227][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.018430s)
+[2018.01.31-03.51.11:253][503]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.51.11:257][503]LogInit: FAudioDevice initialized.
+[2018.01.31-03.51.11:290][503]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.51.11:299][503]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.51.11
+[2018.01.31-03.51.11:304][503]LogWorld: Bringing up level for play took: 0.012450
+[2018.01.31-03.51.12:241][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_0
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.12:242][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.13:122][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_1
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.13:122][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.14:039][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_2
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.14:039][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.14:957][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_3
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.14:957][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.15:841][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_4
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.15:841][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.16:763][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_5
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.16:763][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.17:723][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_6
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.17:723][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.18:625][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_7
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.18:625][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.19:494][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_8
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.19:495][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.20:377][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_9
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.20:377][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.21:265][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_10
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.21:265][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.22:172][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_11
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.22:172][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.23:071][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_12
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.23:071][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.23:984][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_13
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.23:984][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.24:963][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_14
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.24:963][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.25:853][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_15
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.25:853][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.26:747][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_16
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.26:747][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.27:623][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_17
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.27:624][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.28:506][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_18
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.28:506][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.29:406][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_19
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.29:406][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.30:312][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_20
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.30:312][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.31:253][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_21
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.31:253][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.32:143][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_22
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.32:143][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.33:055][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_23
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.33:055][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.33:963][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_24
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.33:963][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.34:864][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_25
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.34:864][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.35:794][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_26
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.35:794][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.36:685][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_27
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.36:686][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.37:609][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_28
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.37:609][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.38:499][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_29
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.38:499][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.39:442][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_30
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.39:443][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.40:364][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_31
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.40:364][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.41:269][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_32
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.41:269][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.42:175][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_33
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.42:175][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.43:028][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_34
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.43:028][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.43:927][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_35
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.43:927][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.44:879][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_36
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.44:879][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.45:773][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_37
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.45:774][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.46:653][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_38
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.46:653][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.47:494][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_39
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.47:494][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.48:332][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_40
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.48:332][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.49:219][503]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_41
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.51.49:219][503]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.51.49:228][503]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 38.073
+[2018.01.31-03.52.11:235][728]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.52.11:254][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.52.11:254][728]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:52:11 AM)
+[2018.01.31-03.52.11:255][728]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.52.11:271][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016359s)
+[2018.01.31-03.52.11:271][728]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.52.11:272][728]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2018.01.31-03.52.11:272][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.017317s)
+[2018.01.31-03.52.11:299][728]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.52.11:303][728]LogInit: FAudioDevice initialized.
+[2018.01.31-03.52.11:335][728]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.52.11:343][728]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.52.11
+[2018.01.31-03.52.11:347][728]LogWorld: Bringing up level for play took: 0.010396
+[2018.01.31-03.52.12:216][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_0
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.12:217][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.13:082][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_1
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.13:082][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.13:986][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_2
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.13:986][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.14:864][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_3
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.14:865][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.15:765][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_4
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.15:766][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.16:679][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_5
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.16:679][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.17:548][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_6
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.17:548][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.18:403][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_7
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.18:403][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.19:268][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_8
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.19:268][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.20:161][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_9
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.20:161][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.21:026][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_10
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.21:027][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.21:904][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_11
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.21:905][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.22:783][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_12
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.22:783][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.23:677][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_13
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.23:677][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.24:585][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_14
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.24:585][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.25:477][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_15
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.25:477][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.26:363][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_16
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.26:364][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.27:205][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_17
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.27:206][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.28:079][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_18
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.28:079][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.28:988][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_19
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.28:988][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.29:847][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_20
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.29:848][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.30:746][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_21
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.30:747][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.31:666][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_22
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.31:666][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.32:528][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_23
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.32:529][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.33:372][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_24
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.33:372][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.34:198][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_25
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.34:198][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.35:015][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_26
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.35:015][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.35:897][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_27
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.35:897][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.36:796][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_28
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.36:797][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.37:680][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_29
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.37:680][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.38:563][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_30
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.38:563][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.39:402][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_31
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.39:402][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.40:250][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_32
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.40:251][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.41:099][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_33
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.41:099][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.41:919][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_34
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.41:919][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.42:820][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_35
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.42:821][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.43:764][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_36
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.43:765][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.44:631][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_37
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.44:631][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.45:490][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_38
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.45:490][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.46:428][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_39
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.46:428][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.47:282][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_40
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.47:283][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.48:167][728]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_41
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.52.48:167][728]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.52.48:175][728]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 37.02
+[2018.01.31-03.53.13:006][517]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.53.13:026][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.53.13:026][517]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:53:13 AM)
+[2018.01.31-03.53.13:026][517]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.53.13:045][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018201s)
+[2018.01.31-03.53.13:045][517]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.53.13:046][517]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2018.01.31-03.53.13:046][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.019698s)
+[2018.01.31-03.53.13:076][517]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.53.13:080][517]LogInit: FAudioDevice initialized.
+[2018.01.31-03.53.13:110][517]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.53.13:118][517]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.53.13
+[2018.01.31-03.53.13:121][517]LogWorld: Bringing up level for play took: 0.009452
+[2018.01.31-03.53.14:027][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_0
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.14:027][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.14:874][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_1
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.14:875][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.15:742][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_2
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.15:743][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.16:640][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_3
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.16:640][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.17:493][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_4
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.17:493][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.18:384][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_5
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.18:384][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.19:251][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_6
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.19:251][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.20:125][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_7
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.20:125][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.21:002][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_8
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.21:002][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.21:852][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_9
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.21:852][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.22:710][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_10
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.22:710][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.23:593][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_11
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.23:594][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.24:452][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_12
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.24:453][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.25:332][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_13
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.25:333][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.26:200][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_14
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.26:200][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.27:102][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_15
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.27:102][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.28:009][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_16
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.28:010][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.28:929][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_17
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.28:929][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.29:835][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_18
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.29:835][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.30:718][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_19
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.30:718][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.31:622][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_20
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.31:622][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.32:506][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_21
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.32:507][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.33:399][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_22
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.33:399][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.34:289][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_23
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.34:290][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.35:186][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_24
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.35:186][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.36:138][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_25
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.36:138][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.37:010][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_26
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.37:010][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.37:848][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_27
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.37:848][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.38:819][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_28
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.38:820][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.39:764][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_29
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.39:764][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.40:721][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_30
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.40:721][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.41:689][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_31
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.41:689][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.42:648][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_32
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.42:648][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.43:519][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_33
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.43:519][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.44:425][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_34
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.44:425][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.45:330][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_35
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.45:330][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.46:236][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_36
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.46:236][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.47:160][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_37
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.47:160][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.48:028][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_38
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.48:028][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.48:948][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_39
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.48:948][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.49:912][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_40
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.49:913][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.50:874][517]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Controller_SimpleAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.Controller_SimpleAI_C_41
+	Function /Game/Controller_SimpleAI.Controller_SimpleAI_C:ExecuteUbergraph_Controller_SimpleAI:04EC
+[2018.01.31-03.53.50:874][517]PIE: Error: Infinite Loop detected in  Controller_SimpleAI , asserted during  Set ControlledPawn with the following  Call Stack
+[2018.01.31-03.53.50:882][517]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 37.727
+[2018.01.31-03.54.35:484][ 17]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.54.35:503][ 17]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.31-03.54.35:516][ 17]LogPlayLevel: [PlayLevel] Compiling Controller_SimpleAI before play...
+[2018.01.31-03.54.35:733][ 17]LogPlayLevel: PlayLevel: Blueprint regeneration took 229 ms (1 blueprints)
+[2018.01.31-03.54.35:733][ 17]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:54:35 AM)
+[2018.01.31-03.54.35:733][ 17]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.54.35:750][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016263s)
+[2018.01.31-03.54.35:750][ 17]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.54.35:750][ 17]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2018.01.31-03.54.35:751][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.017293s)
+[2018.01.31-03.54.35:778][ 17]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.54.35:782][ 17]LogInit: FAudioDevice initialized.
+[2018.01.31-03.54.35:815][ 17]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.54.35:823][ 17]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.54.35
+[2018.01.31-03.54.35:826][ 17]LogWorld: Bringing up level for play took: 0.009058
+[2018.01.31-03.54.35:835][ 17]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.68
+[2018.01.31-03.56.19:298][940]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.56.19:320][940]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.31-03.56.19:333][940]LogPlayLevel: [PlayLevel] Compiling Controller_SimpleAI before play...
+[2018.01.31-03.56.19:575][940]LogPlayLevel: PlayLevel: Blueprint regeneration took 255 ms (1 blueprints)
+[2018.01.31-03.56.19:575][940]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:56:19 AM)
+[2018.01.31-03.56.19:575][940]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.56.19:592][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016155s)
+[2018.01.31-03.56.19:592][940]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.56.19:592][940]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2018.01.31-03.56.19:593][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.017199s)
+[2018.01.31-03.56.19:619][940]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.56.19:622][940]LogInit: FAudioDevice initialized.
+[2018.01.31-03.56.19:658][940]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.56.19:668][940]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.56.19
+[2018.01.31-03.56.19:671][940]LogWorld: Bringing up level for play took: 0.011269
+[2018.01.31-03.56.19:682][940]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.527
+[2018.01.31-03.58.05:185][464]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.58.05:203][464]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.31-03.58.05:217][464]LogPlayLevel: [PlayLevel] Compiling Controller_SimpleAI before play...
+[2018.01.31-03.58.05:423][464]LogPlayLevel: PlayLevel: Blueprint regeneration took 220 ms (1 blueprints)
+[2018.01.31-03.58.05:423][464]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:58:05 AM)
+[2018.01.31-03.58.05:423][464]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.58.05:442][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018042s)
+[2018.01.31-03.58.05:442][464]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.58.05:442][464]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2018.01.31-03.58.05:443][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.019084s)
+[2018.01.31-03.58.05:474][464]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.58.05:478][464]LogInit: FAudioDevice initialized.
+[2018.01.31-03.58.05:513][464]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.58.05:521][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.58.05
+[2018.01.31-03.58.05:523][464]LogWorld: Bringing up level for play took: 0.008293
+[2018.01.31-03.58.05:533][464]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.378
+[2018.01.31-03.58.30:133][364]LogRenderer: Reallocating scene render targets to support 1344x900 Format 10 NumSamples 1 (Frame:1).
+[2018.01.31-03.58.44:672][829]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.58.44:693][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.58.44:693][829]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:58:44 AM)
+[2018.01.31-03.58.44:693][829]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.58.44:715][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022140s)
+[2018.01.31-03.58.44:716][829]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.58.44:716][829]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2018.01.31-03.58.44:717][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.023336s)
+[2018.01.31-03.58.44:745][829]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.58.44:750][829]LogInit: FAudioDevice initialized.
+[2018.01.31-03.58.44:781][829]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.58.44:790][829]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.58.44
+[2018.01.31-03.58.44:793][829]LogWorld: Bringing up level for play took: 0.009198
+[2018.01.31-03.58.44:804][829]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.351
+[2018.01.31-03.59.24:554][261]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-03.59.24:573][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-03.59.24:573][261]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 5:59:24 AM)
+[2018.01.31-03.59.24:573][261]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-03.59.24:594][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020367s)
+[2018.01.31-03.59.24:594][261]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-03.59.24:594][261]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2018.01.31-03.59.24:595][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.021383s)
+[2018.01.31-03.59.24:625][261]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-03.59.24:629][261]LogInit: FAudioDevice initialized.
+[2018.01.31-03.59.24:667][261]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-03.59.24:674][261]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-04.59.24
+[2018.01.31-03.59.24:677][261]LogWorld: Bringing up level for play took: 0.008839
+[2018.01.31-03.59.24:688][261]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.468
+[2018.01.31-04.00.52:109][391]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.00.52:130][391]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.31-04.00.52:144][391]LogPlayLevel: [PlayLevel] Compiling Controller_SimpleAI before play...
+[2018.01.31-04.00.52:386][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 256 ms (1 blueprints)
+[2018.01.31-04.00.52:387][391]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:00:52 AM)
+[2018.01.31-04.00.52:387][391]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.00.52:409][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022304s)
+[2018.01.31-04.00.52:410][391]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.00.52:410][391]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2018.01.31-04.00.52:410][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.023526s)
+[2018.01.31-04.00.52:438][391]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.00.52:442][391]LogInit: FAudioDevice initialized.
+[2018.01.31-04.00.52:478][391]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.00.52:486][391]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.00.52
+[2018.01.31-04.00.52:489][391]LogWorld: Bringing up level for play took: 0.009045
+[2018.01.31-04.00.52:499][391]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.344
+[2018.01.31-04.01.15:339][812]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Parent_C (BP_NPC_Parent16)
+[2018.01.31-04.01.19:352][ 99]Cmd: EDIT COPY
+[2018.01.31-04.01.19:943][142]Cmd: EDIT PASTE
+[2018.01.31-04.01.27:413][679]Cmd: EDIT PASTE
+[2018.01.31-04.01.34:284][150]LogEditorViewport: Clicking on Actor (LMB): Spline_C (Spline7)
+[2018.01.31-04.01.42:635][746]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.01.42:655][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.01.42:655][746]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:01:42 AM)
+[2018.01.31-04.01.42:656][746]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.01.42:674][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018650s)
+[2018.01.31-04.01.42:675][746]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.01.42:675][746]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2018.01.31-04.01.42:675][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.019646s)
+[2018.01.31-04.01.42:707][746]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.01.42:711][746]LogInit: FAudioDevice initialized.
+[2018.01.31-04.01.42:739][746]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.01.42:747][746]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.01.42
+[2018.01.31-04.01.42:750][746]LogWorld: Bringing up level for play took: 0.009173
+[2018.01.31-04.01.42:759][746]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.396
+[2018.01.31-04.01.56:651][577]LogEditorViewport: Clicking on Actor (LMB): Spline_C (Spline5)
+[2018.01.31-04.02.11:922][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2018.01.31-04.02.12:835][773]LogEditorViewport: Clicking on Actor (LMB): Spline_C (Spline6)
+[2018.01.31-04.02.22:134][463]LogEditorViewport: Clicking on Actor (LMB): Spline_C (Spline8)
+[2018.01.31-04.02.59:718][204]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Parent_C (BP_NPC_Parent16)
+[2018.01.31-04.03.02:850][430]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Parent_C (BP_NPC_Parent34)
+[2018.01.31-04.03.04:892][549]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Parent_C (BP_NPC_Parent36)
+[2018.01.31-04.03.15:090][208]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.03.15:111][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.03.15:111][208]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:03:15 AM)
+[2018.01.31-04.03.15:111][208]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.03.15:130][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018652s)
+[2018.01.31-04.03.15:130][208]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.03.15:131][208]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.01.31-04.03.15:131][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.019650s)
+[2018.01.31-04.03.15:164][208]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.03.15:169][208]LogInit: FAudioDevice initialized.
+[2018.01.31-04.03.15:200][208]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.03.15:208][208]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.03.15
+[2018.01.31-04.03.15:211][208]LogWorld: Bringing up level for play took: 0.009361
+[2018.01.31-04.03.15:221][208]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.066
+[2018.01.31-04.03.28:654][969]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.03.28:674][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.03.28:674][969]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:03:28 AM)
+[2018.01.31-04.03.28:675][969]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.03.28:701][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026051s)
+[2018.01.31-04.03.28:701][969]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.03.28:701][969]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.01.31-04.03.28:702][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.027280s)
+[2018.01.31-04.03.28:732][969]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.03.28:735][969]LogInit: FAudioDevice initialized.
+[2018.01.31-04.03.28:768][969]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.03.28:775][969]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.03.28
+[2018.01.31-04.03.28:779][969]LogWorld: Bringing up level for play took: 0.009030
+[2018.01.31-04.03.28:788][969]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.367
+[2018.01.31-04.03.37:557][461]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.03.37:576][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.03.37:576][461]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:03:37 AM)
+[2018.01.31-04.03.37:576][461]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.03.37:594][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018223s)
+[2018.01.31-04.03.37:595][461]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.03.37:595][461]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2018.01.31-04.03.37:595][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.019220s)
+[2018.01.31-04.03.37:626][461]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.03.37:631][461]LogInit: FAudioDevice initialized.
+[2018.01.31-04.03.37:667][461]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.03.37:675][461]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.03.37
+[2018.01.31-04.03.37:679][461]LogWorld: Bringing up level for play took: 0.009476
+[2018.01.31-04.03.37:690][461]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.535
+[2018.01.31-04.03.50:243][128]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.03.50:262][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.03.50:262][128]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:03:50 AM)
+[2018.01.31-04.03.50:262][128]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.03.50:344][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081788s)
+[2018.01.31-04.03.50:345][128]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.03.50:345][128]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2018.01.31-04.03.50:346][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.083697s)
+[2018.01.31-04.03.50:397][128]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.03.50:403][128]LogInit: FAudioDevice initialized.
+[2018.01.31-04.03.50:438][128]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.03.50:450][128]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.03.50
+[2018.01.31-04.03.50:454][128]LogWorld: Bringing up level for play took: 0.013608
+[2018.01.31-04.03.50:467][128]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.688
+[2018.01.31-04.04.00:276][833]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.04.00:295][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.04.00:296][833]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:04:00 AM)
+[2018.01.31-04.04.00:296][833]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.04.00:316][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019909s)
+[2018.01.31-04.04.00:316][833]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.04.00:316][833]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2018.01.31-04.04.00:317][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.020974s)
+[2018.01.31-04.04.00:351][833]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.04.00:355][833]LogInit: FAudioDevice initialized.
+[2018.01.31-04.04.00:389][833]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.04.00:398][833]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.04.00
+[2018.01.31-04.04.00:401][833]LogWorld: Bringing up level for play took: 0.009518
+[2018.01.31-04.04.00:411][833]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.744
+[2018.01.31-04.04.09:307][371]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.09:307][371]LogEditorTransaction: Undo Move Actors
+[2018.01.31-04.04.11:735][544]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.04.11:757][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.04.11:757][544]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:04:11 AM)
+[2018.01.31-04.04.11:757][544]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.04.11:776][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019039s)
+[2018.01.31-04.04.11:777][544]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.04.11:777][544]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2018.01.31-04.04.11:777][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.020088s)
+[2018.01.31-04.04.11:807][544]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.04.11:812][544]LogInit: FAudioDevice initialized.
+[2018.01.31-04.04.11:841][544]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.04.11:849][544]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.04.11
+[2018.01.31-04.04.11:853][544]LogWorld: Bringing up level for play took: 0.009411
+[2018.01.31-04.04.11:863][544]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.708
+[2018.01.31-04.04.21:707][127]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.21:707][127]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.22:218][155]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.22:218][155]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.22:663][186]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.22:663][186]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.23:089][214]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.23:089][214]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.23:438][237]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.23:438][237]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.23:778][259]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.23:778][259]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.24:137][282]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.24:137][282]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.24:485][305]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.24:485][305]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.24:840][328]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.24:840][328]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.25:219][354]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.25:219][354]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.25:625][381]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.25:625][381]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.25:969][404]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.25:969][404]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.31-04.04.26:447][437]Cmd: TRANSACTION UNDO
+[2018.01.31-04.04.26:447][437]LogEditorTransaction: Undo Move Actors
+[2018.01.31-04.04.27:855][536]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.04.27:876][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.04.27:876][536]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:04:27 AM)
+[2018.01.31-04.04.27:876][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.04.27:894][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017790s)
+[2018.01.31-04.04.27:895][536]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.04.27:895][536]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2018.01.31-04.04.27:895][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.018925s)
+[2018.01.31-04.04.27:922][536]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.04.27:926][536]LogInit: FAudioDevice initialized.
+[2018.01.31-04.04.27:961][536]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.04.27:969][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.04.27
+[2018.01.31-04.04.27:972][536]LogWorld: Bringing up level for play took: 0.009455
+[2018.01.31-04.04.27:981][536]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.826
+[2018.01.31-04.05.06:979][267]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.05.06:999][267]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.31-04.05.07:015][267]LogPlayLevel: [PlayLevel] Compiling Controller_SimpleAI before play...
+[2018.01.31-04.05.07:234][267]LogPlayLevel: PlayLevel: Blueprint regeneration took 234 ms (1 blueprints)
+[2018.01.31-04.05.07:234][267]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:05:07 AM)
+[2018.01.31-04.05.07:234][267]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.05.07:251][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016957s)
+[2018.01.31-04.05.07:252][267]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.05.07:252][267]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2018.01.31-04.05.07:252][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.017874s)
+[2018.01.31-04.05.07:278][267]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.05.07:282][267]LogInit: FAudioDevice initialized.
+[2018.01.31-04.05.07:315][267]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.05.07:324][267]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.05.07
+[2018.01.31-04.05.07:327][267]LogWorld: Bringing up level for play took: 0.009122
+[2018.01.31-04.05.07:337][267]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 0.182
+[2018.01.31-04.05.54:697][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2018.01.31-04.06.08:092][946]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.06.08:113][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.31-04.06.08:113][946]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:06:08 AM)
+[2018.01.31-04.06.08:113][946]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.06.08:131][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017624s)
+[2018.01.31-04.06.08:131][946]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.06.08:131][946]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2018.01.31-04.06.08:132][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.018545s)
+[2018.01.31-04.06.08:163][946]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.06.08:167][946]LogInit: FAudioDevice initialized.
+[2018.01.31-04.06.08:198][946]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.06.08:206][946]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.06.08
+[2018.01.31-04.06.08:210][946]LogWorld: Bringing up level for play took: 0.009736
+[2018.01.31-04.06.08:222][946]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.067
+[2018.01.31-04.06.23:935][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2018.01.31-04.07.19:025][932]LogSavePackage: Save=523.83ms
+[2018.01.31-04.07.19:025][932]LogSavePackage: Moving 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/TestLevel_Auto2FDBFD6C349DDA471B3F12B9D0BC76C1F.tmp' to 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Maps/TestLevel_Auto2.umap'
+[2018.01.31-04.07.19:028][932]LogSavePackage: Display: Finished SavePackage C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Maps/TestLevel_Auto2.umap
+[2018.01.31-04.07.19:030][932]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.561
+[2018.01.31-04.07.19:030][932]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.561
+[2018.01.31-04.07.19:032][932]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Controller_SimpleAI] ([1] browsable assets)...
+[2018.01.31-04.07.19:032][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Controller_SimpleAI]
+[2018.01.31-04.07.19:121][932]LogSavePackage: Save=76.69ms
+[2018.01.31-04.07.19:121][932]LogSavePackage: Moving 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Controller_SimpleAI_Auto2F0847F6542D7099DA61CFAA617AF00B2.tmp' to 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Controller_SimpleAI_Auto2.uasset'
+[2018.01.31-04.07.19:123][932]LogSavePackage: Display: Finished SavePackage C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Controller_SimpleAI_Auto2.uasset
+[2018.01.31-04.07.19:123][932]LogFileHelpers: Auto-saving content packages took 0.092
+[2018.01.31-04.13.45:802][204]LogEditorTransaction: Undo Move Node
+[2018.01.31-04.13.46:228][226]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.46:511][247]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.46:762][267]LogEditorTransaction: Undo Move Node
+[2018.01.31-04.13.47:023][281]LogEditorTransaction: Undo Paste clipboard contents
+[2018.01.31-04.13.47:375][302]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.47:811][338]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.48:170][367]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.48:531][396]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.48:884][425]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.49:232][447]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.49:758][484]LogEditorTransaction: Undo Move Node
+[2018.01.31-04.13.50:215][514]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.50:699][547]LogEditorTransaction: Undo Change String Pin Value
+[2018.01.31-04.13.51:169][578]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.51:699][622]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.52:780][705]LogEditorTransaction: Undo Move Node
+[2018.01.31-04.13.53:450][752]LogEditorTransaction: Undo Paste clipboard contents
+[2018.01.31-04.13.53:948][787]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.54:446][823]LogEditorTransaction: Undo Create Pin Link
+[2018.01.31-04.13.54:882][860]LogEditorTransaction: Undo Delete current selection
+[2018.01.31-04.14.50:381][964]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/Controller_SimpleAI.Controller_SimpleAI:EventGraph.K2Node_VariableGet_20 or K2Node_VariableGet /Game/Controller_SimpleAI.Controller_SimpleAI:EventGraph.K2Node_VariableGet_20
+[2018.01.31-04.17.29:374][ 81]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/Controller_SimpleAI.Controller_SimpleAI:EventGraph.K2Node_CallFunction_223 or K2Node_CallFunction /Game/Controller_SimpleAI.Controller_SimpleAI:EventGraph.K2Node_CallFunction_223
+[2018.01.31-04.17.56:859][250]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/Controller_SimpleAI.Controller_SimpleAI:EventGraph.K2Node_VariableGet_20 or K2Node_VariableGet /Game/Controller_SimpleAI.Controller_SimpleAI:EventGraph.K2Node_VariableGet_20
+[2018.01.31-04.20.32:715][933]LogSavePackage: Save=523.57ms
+[2018.01.31-04.20.32:715][933]LogSavePackage: Moving 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/TestLevel_Auto35422280F46AA51AEB7B78992A373C624.tmp' to 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Maps/TestLevel_Auto3.umap'
+[2018.01.31-04.20.32:718][933]LogSavePackage: Display: Finished SavePackage C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Maps/TestLevel_Auto3.umap
+[2018.01.31-04.20.32:723][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.567
+[2018.01.31-04.20.32:723][933]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.567
+[2018.01.31-04.20.32:725][933]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Controller_SimpleAI] ([1] browsable assets)...
+[2018.01.31-04.20.32:725][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/Controller_SimpleAI]
+[2018.01.31-04.20.32:814][933]LogSavePackage: Save=76.16ms
+[2018.01.31-04.20.32:814][933]LogSavePackage: Moving 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Controller_SimpleAI_Auto31475BD6F45080C7A62F9CC91E3FE47FF.tmp' to 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Controller_SimpleAI_Auto3.uasset'
+[2018.01.31-04.20.32:815][933]LogSavePackage: Display: Finished SavePackage C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Autosaves/Game/Controller_SimpleAI_Auto3.uasset
+[2018.01.31-04.20.32:815][933]LogFileHelpers: Auto-saving content packages took 0.090
+[2018.01.31-04.21.23:895][256]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.31-04.21.23:913][256]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.31-04.21.23:927][256]LogPlayLevel: [PlayLevel] Compiling Controller_SimpleAI before play...
+[2018.01.31-04.21.24:145][256]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (1 blueprints)
+[2018.01.31-04.21.24:145][256]PIE: New page: PIE session: TestLevel (Jan 31, 2018, 6:21:24 AM)
+[2018.01.31-04.21.24:145][256]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2018.01.31-04.21.24:163][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017818s)
+[2018.01.31-04.21.24:164][256]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.31-04.21.24:164][256]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2018.01.31-04.21.24:164][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.018772s)
+[2018.01.31-04.21.24:193][256]LogInit: XAudio2 using 'Speakers (Steam Streaming Speakers)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2018.01.31-04.21.24:198][256]LogInit: FAudioDevice initialized.
+[2018.01.31-04.21.24:228][256]LogLoad: Game class is 'GM_Chase_C'
+[2018.01.31-04.21.24:236][256]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.31-05.21.24
+[2018.01.31-04.21.24:239][256]LogWorld: Bringing up level for play took: 0.009277
+[2018.01.31-04.21.24:252][256]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.096
+[2018.01.31-04.21.34:566][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Controller_SimpleAI" FILE="C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Controller_SimpleAI.uasset" SILENT=true
+[2018.01.31-04.21.34:655][961]LogSavePackage: Save=81.19ms
+[2018.01.31-04.21.34:655][961]LogSavePackage: Moving 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/Controller_SimpleAI5EE33C854316B7DD37450D92145F45E6.tmp' to 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Controller_SimpleAI.uasset'
+[2018.01.31-04.21.34:662][961]LogSavePackage: Display: Finished SavePackage C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Controller_SimpleAI.uasset
+[2018.01.31-04.21.36:389][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestLevel" FILE="C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.31-04.21.36:949][107]LogSavePackage: Save=537.00ms
+[2018.01.31-04.21.36:949][107]LogSavePackage: Moving 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Saved/TestLevel3F9227494D4D38A5CDCB4DBD11B01DF8.tmp' to 'C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Maps/TestLevel.umap'
+[2018.01.31-04.21.36:957][107]LogSavePackage: Display: Finished SavePackage C:/Users/Syzygy/Documents/Unreal Projects/VehicleChaser/BreakingNews/Content/Maps/TestLevel.umap
