@@ -16,6 +16,11 @@
 		{
 			"Name": "SteamVR",
 			"Enabled": false
+		},
+		{
+			"Name": "MenuStarterKitPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4e1b5ed66598492789cacc70a0857b6c"
 		}
 	]
 }
