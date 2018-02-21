@@ -19,7 +19,7 @@
 		},
 		{
 			"Name": "MenuStarterKitPlugin",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4e1b5ed66598492789cacc70a0857b6c"
 		}
 	]
